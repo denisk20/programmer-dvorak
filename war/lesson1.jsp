@@ -7,6 +7,9 @@
 <title>Lesson 1</title>
 </head>
 <body>
-	<typingtutor:typingtutor>Please work!</typingtutor:typingtutor>
+	<typingtutor:typingtutor>
+		Please work!
+		This should be the second line
+	</typingtutor:typingtutor>
 </body>
 </html>

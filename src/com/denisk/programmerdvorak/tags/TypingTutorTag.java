@@ -23,6 +23,7 @@ public class TypingTutorTag extends SimpleTagSupport {
 
 		String content = sw.toString();
 		if (content != null) {
+			content = content.trim();
 			int id = Math.abs(r.nextInt());
 			out.println("<div id='src_" + id + "'>");
 			String[] lines = content.split("\n");
