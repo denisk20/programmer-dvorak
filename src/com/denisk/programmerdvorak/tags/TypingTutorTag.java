@@ -8,7 +8,9 @@ import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 /**
- *
+ * Custom tag which outputs a basic typing tutor: a text, an input area, a label for speed
+ * statistics, a label for error count and a restart button.
+ * 
  * @author denisk
  */
 public class TypingTutorTag extends SimpleTagSupport {

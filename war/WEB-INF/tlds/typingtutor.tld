@@ -6,11 +6,15 @@
   
   <tag>
 	  <name>typingtutor</name>
+	  <description>Custom tag which outputs a basic typing tutor: a text, an input area, a label for speed
+		  statistics, a label for error count and a restart button. It also wires everything together with javascript</description>
 	  <tag-class>com.denisk.programmerdvorak.tags.TypingTutorTag</tag-class>
 	  <body-content>scriptless</body-content>
   </tag>
   <tag>
 	  <name>head</name>
+	  <description>Outputs header information needed for typing tutor. This includes jQuery, jquery.browser and
+		  and typingtutor scripts. It also outputs styles and content-type tags</description>
 	  <tag-class>com.denisk.programmerdvorak.tags.HeadTag</tag-class>
 	  <body-content>empty</body-content>
   </tag>

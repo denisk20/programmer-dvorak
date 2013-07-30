@@ -11,6 +11,9 @@ h1 {
 	text-align: right;
 	font-size: 0.9em;
 }
+.note {
+	font-family: cursive;
+}
 .error {
 	color: red;
 }
