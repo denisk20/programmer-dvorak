@@ -10,6 +10,7 @@
 	<typingtutor:typingtutor>
 		Please work!
 		This should be the second line
+		And this one - the third
 	</typingtutor:typingtutor>
 </body>
 </html>

@@ -6,3 +6,4 @@
 *.ear
 /build
 /bin
+/dist/

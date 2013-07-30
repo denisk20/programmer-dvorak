@@ -4,12 +4,12 @@
   <short-name>typingtutor</short-name>
   <uri>/WEB-INF/tlds/typingtutor</uri>
   
-  <tag>>
+  <tag>
 	  <name>typingtutor</name>
 	  <tag-class>com.denisk.programmerdvorak.tags.TypingTutorTag</tag-class>
 	  <body-content>scriptless</body-content>
   </tag>
-  <tag>>
+  <tag>
 	  <name>head</name>
 	  <tag-class>com.denisk.programmerdvorak.tags.HeadTag</tag-class>
 	  <body-content>empty</body-content>
