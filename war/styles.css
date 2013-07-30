@@ -11,6 +11,14 @@ h1 {
 	text-align: right;
 	font-size: 0.9em;
 }
+.nav {
+	position: relative;
+	top: -20px;
+	text-align: center;
+}
+.nav .toc {
+	margin: 0 30px;
+}
 .note {
 	font-family: cursive;
 }
