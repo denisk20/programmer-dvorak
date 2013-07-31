@@ -1,6 +1,7 @@
 .content {
 	margin: 0 auto;
 	width: 900px;
+	margin-bottom: 100px;
 }
 h1 {
 	text-align: center;
@@ -26,7 +27,6 @@ h1 {
 	color: red;
 }
 .lessons {
-	margin-bottom: 100px;
 }
 .lessons a {
 	display:block;
