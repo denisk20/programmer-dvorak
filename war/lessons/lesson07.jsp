@@ -38,6 +38,7 @@
 				Tess Sutton notates the tenuous state that southeast Houston has seen
 				Ethan Ness attests to these Tennessee Senate OSHA statutes to shun Utah
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

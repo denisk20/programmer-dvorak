@@ -27,6 +27,7 @@
 				up up up up hug hug hug hug pug pug pug pug pup pup pup pup
 				ugh ugh ugh ugh Hugh Hugh Hugh Hugh Pugh Pugh Pugh Pugh
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

@@ -43,6 +43,7 @@
 				Allegra, an unparalleled intellectual, calculated the celestial latitudes and
 				longitudes in her sleep.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

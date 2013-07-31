@@ -66,6 +66,7 @@
 				The Pope stood in position atop the
 				highest point in Santiago as an aghast Angie Diego ingested peanuts
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

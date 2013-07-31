@@ -42,6 +42,7 @@
 				From Katmandu to Oklahoma, from Stockholm to Kentucky, from Alaska to the
 				Kremlin, Kodak film is found in many, many cameras.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

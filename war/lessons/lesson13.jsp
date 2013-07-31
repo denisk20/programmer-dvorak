@@ -56,6 +56,7 @@
 				The Ph.D. conducted the Puccini Toccata...
 				an acoustic succession in succinct cacophonic staccato notes.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

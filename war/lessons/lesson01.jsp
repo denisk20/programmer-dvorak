@@ -24,6 +24,7 @@
 				h u uh hu uhh huh uhh
 				h u uh hu uhh huh uhh
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

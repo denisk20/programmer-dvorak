@@ -30,6 +30,7 @@
 				puff puff puff puff
 				puffy puffy puffy puffy puppy puppy puppy puppy
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

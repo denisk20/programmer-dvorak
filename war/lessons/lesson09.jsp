@@ -55,6 +55,7 @@
 				A thousand nude deadheads sustained
 				hideous headstands as studious atheists dissented and seethed
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

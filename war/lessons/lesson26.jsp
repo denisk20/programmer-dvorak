@@ -25,6 +25,7 @@
 				;z ;z ;z ;z :z :z :z :z
 				Z; Z; Z; Z; z: z: z: z:
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

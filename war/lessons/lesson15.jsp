@@ -56,6 +56,7 @@
 				nurtures her grandpa, and he recuperates, though his arthritis returns.
 				In retrospect, that paragraph incorporated a preposterous R proportion.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

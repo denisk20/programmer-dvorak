@@ -43,6 +43,7 @@
 				An exuberant Bill Clinton blew into his saxophone before the ambassadors; it
 				was an extraordinary experience that nobody could explain.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

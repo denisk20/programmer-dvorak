@@ -28,6 +28,7 @@
 				wee wee wee wee wet wet wet wet
 				Jewett Jewett Jewett Jewett
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

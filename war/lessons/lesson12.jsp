@@ -29,6 +29,7 @@
 				etc. etc. etc. etc. etc. etc. etc. etc.
 				etc. etc. etc. etc. etc. etc. etc. etc.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

@@ -28,6 +28,7 @@
 				t e et te teet tee teet tete et
 				t e et te teet tee teet tete et
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

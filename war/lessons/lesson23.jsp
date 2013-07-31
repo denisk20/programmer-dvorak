@@ -48,6 +48,7 @@
 				window. The projectile majestically landed at the junction of Jefferson and
 				Winslow streets, just jolting, not injuring, a jogging tourist.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

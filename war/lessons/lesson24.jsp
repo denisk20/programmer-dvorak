@@ -24,6 +24,7 @@
 				qv qv qv qv qv qv qv qv
 				vq vq vq vq vq vq vq vq
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

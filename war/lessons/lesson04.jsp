@@ -29,6 +29,7 @@
 				no non noon on noo ono
 				no non noon on noo ono
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

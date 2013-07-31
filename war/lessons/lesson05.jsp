@@ -44,6 +44,7 @@
 				None hunt out the tenth one ton nun
 				Hunt the neon then toot out the tune onto the tent
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

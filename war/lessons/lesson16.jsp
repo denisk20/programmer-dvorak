@@ -27,6 +27,7 @@
 				ala ala ala ala l's l's l's l's s's s's s's s's
 				Sal Sal Sal Sal lass lass lass lass Sal's Sal's Sal's Sal's
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

@@ -29,6 +29,7 @@
 				as a sass ass as a sas
 				as a sass ass as a sas
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

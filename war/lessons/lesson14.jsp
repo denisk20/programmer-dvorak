@@ -25,6 +25,7 @@
 				or, or, or, or, ro, ro, ro, ro, nor, nor, nor, nor,
 				Orr, Orr, Orr, Orr, Ron, Ron, Ron, Ron, Orono, Orono, Orono, Orono
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

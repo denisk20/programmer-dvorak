@@ -29,6 +29,7 @@
 				UK UK UK UK
 				hum hum hum hum mum mum mum mum muk muk muk muk
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

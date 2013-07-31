@@ -47,6 +47,7 @@
 				inconclusive.  Nevertheless, this quirky yet vivacious trio has evoked a
 				progressive sound that very well may give you a new perspective on irreverence.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

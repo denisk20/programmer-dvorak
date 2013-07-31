@@ -44,6 +44,7 @@
 				Yesterday, as they do each payday, Sydney and Clifford playfully ran off to
 				the fishery for frothy glasses of Henry's Draft Ale.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

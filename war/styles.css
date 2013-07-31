@@ -25,3 +25,10 @@ h1 {
 .error {
 	color: red;
 }
+.lessons a {
+	display:block;
+}
+.copyright {
+	margin-top: 50px;
+	font-size: 0.8em;
+}

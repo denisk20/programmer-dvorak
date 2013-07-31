@@ -28,6 +28,7 @@
 				eh he hue hut teeth teethe the thee tutu
 				eh he hue hut teeth teethe the thee tutu
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

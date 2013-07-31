@@ -24,6 +24,7 @@
 				bx bx bx bx bx bx bx bx
 				xb xb xb xb xb xb xb xb
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

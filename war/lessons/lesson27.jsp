@@ -37,6 +37,7 @@
 				activity; several lizards hazarded the freezing waters and capsized the fish
 				tanks; a dozen grizzlies were waltzing in the plaza.
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

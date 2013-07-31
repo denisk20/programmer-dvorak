@@ -31,6 +31,7 @@
 				du du du du hi hi hi hi
 				dud dud dud dud hid hid hid hid
 			</typingtutor:typingtutor>
+			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>
