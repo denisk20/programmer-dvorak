@@ -47,7 +47,6 @@ public class TypingTutorTag extends SimpleTagSupport {
 			out.println("</div>");
 
 			out.println("<textarea id='area_" + id + "' rows='" + lines.length + "' cols='" + (maxLength + 2) + "'></textarea>");
-			out.println("<div id='hello'></div>");
 			out.println("<div id='csp_" + id + "'></div>");
 
 			out.println("<div id='err_" + id + "' class='error'></div>");
@@ -55,6 +54,7 @@ public class TypingTutorTag extends SimpleTagSupport {
 			out.println("<button id='rst_" + id + "'>Restart</button>");
 
 			out.println("<script type=\"text/javascript\">\n"
+					+ " (function() {"
 					+ "		var tut = $('#src_" + id + ", #area_" + id + "').typingtutor({\n"
 					+ "			speedTrackCallback: function(speed){\n"
 					+ "				$('#csp_" + id + "').text('Current speed is ' + speed + ' characters per minute');\n"
@@ -72,6 +72,7 @@ public class TypingTutorTag extends SimpleTagSupport {
 					+ "			$('#csp_" + id + "').text('');\n"
 					+ "			$('#err_" + id + "').text('');\n"
 					+ "		});\n"
+					+ " })()"
 					+ "	</script>");
 		}
 
