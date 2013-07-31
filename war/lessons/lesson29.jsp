@@ -4,17 +4,19 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 29: Comprehensive, including X and B (This is it, folks!)</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 29: Comprehensive, including X and B</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 29: Comprehensive, including X and B (This is it, folks!)</h1>
+			<h1>Lesson 29: Comprehensive, including X and B</h1>
 			<div class="nav">
 				<a href="/lessons/lesson28.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 28: Introducing X and B: Index fingers stretching down"/></a>
 				<a href="/index.html" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
+				<a href="/lessons/lesson30.jsp"><img src="/img/right-arrow.png"
+												  alt="Next lesson" title="Next lesson: Lesson 30: Introducing '(', '*' and '=': Number row, index fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				aaaa bbbb cccc dddd eeee ffff gggg hhhh iiii jjjj kkkk llll mmmm nnnn oooo
