@@ -10,6 +10,10 @@
 		  statistics, a label for error count and a restart button. It also wires everything together with javascript</description>
 	  <tag-class>com.denisk.programmerdvorak.tags.TypingTutorTag</tag-class>
 	  <body-content>scriptless</body-content>
+	  <attribute>
+	  	<name>focus</name>
+	  	<type>boolean</type>
+	  </attribute>
   </tag>
   <tag>
 	  <name>head</name>

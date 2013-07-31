@@ -17,7 +17,11 @@ public class TypingTutorTag extends SimpleTagSupport {
 
 	private StringWriter sw = new StringWriter();
 	private Random r = new Random();
+	private boolean focus;
 
+	public void setFocus(boolean focus){
+		this.focus = focus;
+	}
 	@Override
 	public void doTag() throws JspException, IOException {
 		getJspBody().invoke(sw);
@@ -61,6 +65,7 @@ public class TypingTutorTag extends SimpleTagSupport {
 					+ "			errorCallback: function(errorCount){\n"
 					+ "				$('#err_" + id + "').text('Errors: ' + errorCount);\n"
 					+ "			}\n"
+					+ "         " + (focus ? ", focus: true" : "")
 					+ "		});\n"
 					+ "		$('#rst_" + id + "').click(function(){\n"
 					+ "			tut.restart();\n"
