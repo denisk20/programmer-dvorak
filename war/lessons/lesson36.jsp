@@ -19,6 +19,15 @@
 												  alt="Next lesson" title="Lesson 37: introducing '&' and '!': Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				[{()}] [{()}] [{()}] [{()}] [=*=] [=*=] [=*=] [=*=]
+				s(var[i++]){} s(var[i++]){} s(var[i++]){} s(var[i++]){}
+				a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]};
+				call((a*b++));  call((a*b++)); call((a*b++)); call((a*b++)); 
+				d:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)}
 			</typingtutor:typingtutor>
 		</div>
 	</body>

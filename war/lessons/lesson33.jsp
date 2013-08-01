@@ -19,6 +19,13 @@
 												  alt="Next lesson" title="Next lesson: Lesson 34: Comprehensive, including '{' and '+'"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				{{{{ ++++ {{{{ ++++ {{{{ ++++ {{{{ ++++
+				{{{{ ++++ {{{{ ++++ {{{{ ++++ {{{{ ++++
+				{ { { { + + + + { { { { + + + + { { { { + + + +
+				+{ +{ +{ +{ {+ {+ {+ {+
+				{++ {++ {++ {++ ++{ ++{ ++{ ++{
+				{+{ {+{ {+{ {+{ +{+ +{+ +{+ +{+
+				{{+ {{+ {{+ {{+ {{+ {{+ {{+ {{+
 			</typingtutor:typingtutor>
 		</div>
 	</body>

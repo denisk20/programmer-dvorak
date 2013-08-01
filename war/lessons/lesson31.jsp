@@ -19,6 +19,12 @@
 												  alt="Next lesson" title="Next lesson: Lesson 32: Comprehensive: '(', '*', '=', '}', ')'"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				}}}} )))) }}}} )))) }}}} )))) }}}} ))))
+				}}}} )))) }}}} )))) }}}} )))) }}}} ))))
+				} } } } ) ) ) ) } } } } ) ) ) )
+				}) }) }) }) )} )} )} )}
+				})} })} })} })}
+				)}) )}) )}) )})
 			</typingtutor:typingtutor>
 		</div>
 	</body>

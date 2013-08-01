@@ -19,6 +19,14 @@
 												  alt="Next lesson" title="Next lesson: Lesson 31: Introducing '}' and ')': Number row, second fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( **** ==== (((( **** ==== (((( **** ((((
+				(((( **** ==== (((( **** ==== (((( **** ((((
+				( ( ( ( * * * * = = = =
+				( ( ( ( * * * * = = = =
+				(* (* (* (* *( *( *( *(
+				(= (= (= (= =( =( =( =(
+				=* =* =* =* *= *= *= *=
+				=(* =(* =(* =(* *(= *(= *(= *(=
 			</typingtutor:typingtutor>
 		</div>
 	</body>

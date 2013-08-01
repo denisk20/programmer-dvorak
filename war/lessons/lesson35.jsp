@@ -19,6 +19,12 @@
 												  alt="Next lesson" title="Lesson 35: Introducing '[' and ']': Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				[[[[ ]]]] [[[[ ]]]] [[[[ ]]]] [[[[ ]]]]
+				[[[[ ]]]] [[[[ ]]]] [[[[ ]]]] [[[[ ]]]]
+				[] [] [] [] ][ ][ ][ ][
+				[[] [[] [[] [[] ]][ ]][ ]][ ]][
+				[[]] [[]] [[]] [[]] ]][[ ]][[ ]][[ ]][[
+				[ [ [ [ [ [ [ [ ] ] ] ] ] ] ] ]
 			</typingtutor:typingtutor>
 		</div>
 	</body>

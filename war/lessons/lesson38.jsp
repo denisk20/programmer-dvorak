@@ -19,6 +19,16 @@
 												  alt="Next lesson" title="Lesson 39: introducing '$' and '#': Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				!a=b++ !a=b++ !a=b++ !a=b++
+				*x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++
+				&z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c]
+				func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y}
+				{a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z
+				!((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t}
 			</typingtutor:typingtutor>
 		</div>
 	</body>
