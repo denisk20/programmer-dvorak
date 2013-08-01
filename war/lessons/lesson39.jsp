@@ -19,6 +19,16 @@
 												  alt="Next lesson" title="Lesson 40: Comprehensive, including '$' and '#'"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				$$$$ #### $$$$ #### $$$$ #### $$$$ ####
+				$$$$ #### $$$$ #### $$$$ #### $$$$ ####
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				$ # $ # $ # $# $# $# $#
+				$$# $$# $$# $$# ##$ ##$ ##$ ##$
+				$#$ $#$ $#$ $#$ #$# #$# #$# #$#
+				$$ # $$ # $$ # $$ #
+				## $ ## $ ## $ ## $
+				$#$# $#$# $#$# $#$#
 			</typingtutor:typingtutor>
 		</div>
 	</body>

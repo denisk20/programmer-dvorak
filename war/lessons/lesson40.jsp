@@ -19,6 +19,11 @@
 												  alt="Next lesson" title="Lesson 41: Introducing 1, 9 and 0: Number row, index fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				
 			</typingtutor:typingtutor>
 		</div>
 	</body>
