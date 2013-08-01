@@ -19,6 +19,11 @@
 												  alt="Next lesson" title="Lesson 44: Comprehensive, including 3 and 2"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				3333 2222 3333 2222 3333 2222 3333 2222
+				3333 2222 3333 2222 3333 2222 3333 2222
+				323 323 323 323 223 223 223 223 332 332 332 332
+				2 2 2 2 3 3 3 3 23 23 23 23 32 32 32 32
+				2 23 2 23 2 23 2 23 2 3 2 3 2 3 2 3
 			</typingtutor:typingtutor>
 		</div>
 	</body>

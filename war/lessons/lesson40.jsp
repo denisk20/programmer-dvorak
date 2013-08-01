@@ -23,7 +23,13 @@
 				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$
 			</typingtutor:typingtutor>
 			<typingtutor:typingtutor>
-				
+				$x=(!a&!b) $x=(!a&!b) $x=(!a&!b) $x=(!a&!b)
+				#APP# #APP# #APP# #APP#
+				!(&a&b&c)->[#a #b #c] !(&a&b&c)->[#a #b #c] !(&a&b&c)->[#a #b #c] !(&a&b&c)->[#a #b #c]
+				{#+#} {#+#} {#+#} {#+#} $s=&#x $s=&#x $s=&#x $s=&#x
+				$x=[{a++},{b++},{c++}] $x=[{a++},{b++},{c++}] $x=[{a++},{b++},{c++}] $x=[{a++},{b++},{c++}]
+				####COMMENT ####COMMENT ####COMMENT ####COMMENT
+				#a->{x!==y} #a->{x!==y} #a->{x!==y} #a->{x!==y} #x#[!a!b!c] #x#[!a!b!c] #x#[!a!b!c] #x#[!a!b!c]
 			</typingtutor:typingtutor>
 		</div>
 	</body>

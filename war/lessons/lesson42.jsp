@@ -19,6 +19,17 @@
 												  alt="Next lesson" title="Lesson 43: Introducing 3 and 2: Number row, second fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				$a1=[1,9] $a1=[1,9] $a1=[1,9] $a1=[1,9]
+				x=>{a1+a9}(*) x=>{a1+a9}(*) x=>{a1+a9}(*) x=>{a1+a9}(*)
+				(&m=$1=$0)[0] (&m=$1=$0)[0] (&m=$1=$0)[0] (&m=$1=$0)[0]
+				@x=($1)/($0) @x=($1)/($0) @x=($1)/($0) @x=($1)/($0)
+				(#z#)|(#y#) (#z#)|(#y#) (#z#)|(#y#) (#z#)|(#y#)
+				{x:{y:[1,0]}, t:{k:[1+x9]}} {x:{y:[1,0]}, t:{k:[1+x9]}} {x:{y:[1,0]}, t:{k:[1+x9]}} {x:{y:[1,0]}, t:{k:[1+x9]}}
+				w90=1+L w90=1+L w90=1+L w90=1+L $1.*\.doc $1.*\.doc $1.*\.doc $1.*\.doc
 			</typingtutor:typingtutor>
 		</div>
 	</body>
