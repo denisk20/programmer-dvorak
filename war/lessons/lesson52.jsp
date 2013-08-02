@@ -17,6 +17,18 @@
 													   alt="Table of contents" title="Table of contents" /></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
+				#### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666 %%%% 8888 ~~~~ ````
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
+				#### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666 %%%% 8888 ~~~~ ````
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				`<code>` `<code>` `<code>` `<code>`
+				${~!i}([abc])->${1,2,3,4,5,6,7,8} ${~!i}([abc])->${1,2,3,4,5,6,7,8}
+				%x=&y %x=&y %x=&y %x=&y a*(b+~c) a*(b+~c) a*(b+~c) a*(b+~c)
+				#in->[x:_w_]->`s++` #in->[x:_w_]->`s++` #in->[x:_w_]->`s++` #in->[x:_w_]->`s++`
+				#def if( while( #def if( while( $s[x--] $s[x--] $s[x--] $s[x--]
+				exit(0); exit(0); exit(0); exit(0);
 			</typingtutor:typingtutor>
 		</div>
 	</body>

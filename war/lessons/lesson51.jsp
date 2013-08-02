@@ -19,6 +19,11 @@
 												  alt="Next lesson" title="Lesson 52: Comprehensive, including '~' and `"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				~~~~ ```` ~~~~ ```` ~~~~ ```` ~~~~ ````
+				~~~~ ```` ~~~~ ```` ~~~~ ```` ~~~~ ````
+				~`~`~`~` ~`~`~`~` ~`~`~`~` ~`~`~`~`
+				~`~ ~`~ ~`~ ~`~ ~ ~` ~ ~` ~ ~` ~ ~`
+				~`~~ ~`~~ ~`~~ ~`~~ `~` `~` `~` `~`
 			</typingtutor:typingtutor>
 		</div>
 	</body>
