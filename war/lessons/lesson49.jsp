@@ -19,6 +19,11 @@
 												  alt="Next lesson" title="Lesson 50: Comprehensive, including '%' and 8"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				%%%% 8888 %%%% 8888 %%%% 8888 %%%% 8888
+				%%%% 8888 %%%% 8888 %%%% 8888 %%%% 8888
+				%8 %8 %8 %8 8 % 8 % 8 % 8 %
+				8%8 8%8 8%8 8%8 % 8% % 8% % 8% % 8%
+				% %8 % %8 % %8 % %8 8% 8%8 8% 8%8 8% 8%8 8% 8%8
 			</typingtutor:typingtutor>
 		</div>
 	</body>

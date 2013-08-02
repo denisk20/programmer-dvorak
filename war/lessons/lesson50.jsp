@@ -19,6 +19,16 @@
 												  alt="Next lesson" title="Lesson 51: Introducing '~' and `: Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666 %%%% 8888
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666  %%%% 8888
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				!(x%y==z) !(x%y==z) !(x%y==z) !(x%y==z)
+				2t/3k->8m 2t/3k->8m 2t/3k->8m 2t/3k->8m
+				{$1->$2}==8 {$1->$2}==8 {$1->$2}==8 {$1->$2}==8
+				%[0,1,2,3,4,5,6,7,8,9]% %[0,1,2,3,4,5,6,7,8,9]% %[0,1,2,3,4,5,6,7,8,9]% %[0,1,2,3,4,5,6,7,8,9]%
+				/is.*near[y,Y]{8}ou/g /is.*near[y,Y]{8}ou/g /is.*near[y,Y]{8}ou/g /is.*near[y,Y]{8}ou/g
+				&m->ping(z%8) &m->ping(z%8) &m->ping(z%8) &m->ping(z%8)
 			</typingtutor:typingtutor>
 		</div>
 	</body>

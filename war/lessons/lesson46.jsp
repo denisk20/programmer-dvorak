@@ -19,6 +19,17 @@
 												  alt="Next lesson" title="Lesson 47: Introducing 7 and 6: Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000 2222 3333 5555 4444
+				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000 2222 3333 5555 4444
+			</typingtutor:typingtutor>
+			<typingtutor:typingtutor>
+				func5(!a, !b); func5(!a, !b); func5(!a, !b); func5(!a, !b);
+				if($z5 > $z4){$a->speak()} if($z5 > $z4){$a->speak()} if($z5 > $z4){$a->speak()} if($z5 > $z4){$a->speak()}
+				5+4=3+3+3 5+4=3+3+3 5+4=3+3+3 5+4=3+3+3
+				while($i < 5){$i--} while($i < 5){$i--} while($i < 5){$i--} while($i < 5){$i--}
+				#ERR_4 #ERR_4 #ERR_4 #ERR_4 ($z|$t)&($z|$k) ($z|$t)&($z|$k) ($z|$t)&($z|$k) ($z|$t)&($z|$k)
+				try{f.call(!a||!b)} try{f.call(!a||!b)} try{f.call(!a||!b)} try{f.call(!a||!b)}
+				$ev->[t5] $ev->[t5] $ev->[t5] $ev->[t5]
 			</typingtutor:typingtutor>
 		</div>
 	</body>

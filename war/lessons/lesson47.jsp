@@ -19,6 +19,11 @@
 												  alt="Next lesson" title="Lesson 48: Comprehensive, including 7 and 6"/></a>
 			</div>
 			<typingtutor:typingtutor>
+				7777 6666 7777 6666 7777 6666 7777 6666
+				7777 6666 7777 6666 7777 6666 7777 6666
+				7 7 7 7 6 6 6 6 76 76 76 76 667 667 667 667
+				6 76 6 76 6 76 6 76 676 676 676 676
+				7 676 76 7 676 76 7 676 76 7 676 76 
 			</typingtutor:typingtutor>
 		</div>
 	</body>
