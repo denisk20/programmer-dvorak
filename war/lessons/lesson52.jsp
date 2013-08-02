@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 51: Introducing '~' and `: Number row, fourth fingers</h1>
+			<h1>Lesson 52: Comprehensive, including '~' and `</h1>
 			<div class="nav">
 				<a href="/lessons/lesson51.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
@@ -23,8 +23,8 @@
 				#### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666 %%%% 8888 ~~~~ ````
 			</typingtutor:typingtutor>
 			<typingtutor:typingtutor>
-				`<code>` `<code>` `<code>` `<code>`
-				${~!i}([abc])->${1,2,3,4,5,6,7,8} ${~!i}([abc])->${1,2,3,4,5,6,7,8}
+				`_code_` `_code_` `_code_` `_code_`
+				{~!i}([abc])->{1,2,3,4,5,6,7,8} {~!i}([abc])->{1,2,3,4,5,6,7,8}
 				%x=&y %x=&y %x=&y %x=&y a*(b+~c) a*(b+~c) a*(b+~c) a*(b+~c)
 				#in->[x:_w_]->`s++` #in->[x:_w_]->`s++` #in->[x:_w_]->`s++` #in->[x:_w_]->`s++`
 				#def if( while( #def if( while( $s[x--] $s[x--] $s[x--] $s[x--]
