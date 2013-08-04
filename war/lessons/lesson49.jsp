@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson48.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 48: Comprehensive, including 7 and 6"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson50.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Lesson 50: Comprehensive, including '%' and 8"/></a>

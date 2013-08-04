@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson27.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 27: Comprehensive, including ; and Z"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson29.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Next lesson: Lesson 29: Comprehensive, including X and B (This is it, folks!)"/></a>

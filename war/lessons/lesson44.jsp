@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson43.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 43: Introducing 3 and 2: Number row, second fingers"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson45.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Lesson 45: Introducing 5 and 4: Number row, third fingers"/></a>

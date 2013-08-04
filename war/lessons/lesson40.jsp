@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson39.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 39: introducing '$' and '#': Number row, fourth fingers"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson41.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Lesson 41: Introducing 1, 9 and 0: Number row, index fingers"/></a>

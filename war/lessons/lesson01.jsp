@@ -10,7 +10,7 @@
 		<div class="content">
 			<h1>Lesson 1: Introducing U and H: Home row, Index fingers</h1>
 			<div class="nav">
-				<a href="/index.html" class="toc"><img src="/img/toc.png" alt="Table of contents" title="Table of contents"/></a>
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png" alt="Table of contents" title="Table of contents"/></a>
 				<a href="/lessons/lesson02.jsp"><img src="/img/right-arrow.png" alt="Next lesson" title="Next lesson: Lesson 2: Introducing E and T: Home row, Second fingers"/></a>
 			</div>
 			<span class="note">(This is the Beavis & Butthead lesson; it gets snazzier, trust me!)</span>

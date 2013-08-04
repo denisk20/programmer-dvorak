@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson06.jsp"><img src="/img/left-arrow.png"
 													alt="Previous lesson"
 													title="Previous lesson: Lesson 6: Introducing A and S: Home row, fourth fingers"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson08.jsp"><img src="/img/right-arrow.png"
 												 alt="Next lesson" title="Next lesson: Lesson 8: Introducing I and D: Index finger stretching in the home row" /></a>

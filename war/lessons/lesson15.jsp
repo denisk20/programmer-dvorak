@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson14.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 14: Introducing , and R: Third fingers reaching up"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson16.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Next lesson: Lesson 16: Introducing ' and L: Fourth fingers reaching up"/></a>

@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson51.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 51: Introducing '~' and `: Number row, fourth fingers"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 			</div>
 			<typingtutor:typingtutor>

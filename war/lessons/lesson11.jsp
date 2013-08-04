@@ -13,7 +13,7 @@
 				<a href="/lessons/lesson10.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
 													 title="Lesson 10: Introducing P and G: First fingers reaching up"/></a>
-				<a href="/index.html" class="toc"><img src="/img/toc.png"
+				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson12.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Next lesson: Lesson 12: Introducing . and C: Second fingers reaching up"/></a>
