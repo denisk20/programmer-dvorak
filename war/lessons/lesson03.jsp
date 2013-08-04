@@ -22,7 +22,7 @@
 				eeee hhhh tttt uuuu
 				eeee hhhh tttt uuuu
 				eeee hhhh tttt uuuu
-				hue hue hue hue tutu tutu tutu tutu the the the the  he he he he he
+				hue hue hue hue tutu tutu tutu tutu the the the the he he he he he
 				teeth teeth teeth teeth hut hut hut hut
 				thee thee thee thee tutu tutu tutu tutu
 				eh he hue hut teeth teethe the thee tutu
