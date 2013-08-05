@@ -4,11 +4,11 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 30: Introducing '(', '*' and '=': Number row, index fingers</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 30: Introducing (, * and =: Number row, index fingers</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 30: Introducing '(', '*' and '=': Number row, index fingers</h1>
+			<h1>Lesson 30: Introducing (, * and = : Number row, index fingers</h1>
 			<div class="nav">
 				<a href="/lessons/lesson29.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
@@ -16,7 +16,7 @@
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson31.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Next lesson: Lesson 31: Introducing '}' and ')': Number row, second fingers"/></a>
+												  alt="Next lesson" title="Next lesson: Lesson 31: Introducing } and ): Number row, second fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				(((( **** ==== (((( **** ==== (((( **** ((((

@@ -16,7 +16,7 @@
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson49.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Lesson 49: Introducing '%' and 8: Number row, fourth fingers"/></a>
+												  alt="Next lesson" title="Lesson 49: Introducing % and 8: Number row, fourth fingers"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!! #### $$$$ 1111 9999 0000 2222 3333 5555 4444 7777 6666

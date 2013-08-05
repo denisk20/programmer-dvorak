@@ -4,19 +4,19 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 33: Introducing '{' and '+': Number row, third fingers</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 33: Introducing { and +: Number row, third fingers</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 33: Introducing '{' and '+': Number row, third fingers</h1>
+			<h1>Lesson 33: Introducing { and +: Number row, third fingers</h1>
 			<div class="nav">
 				<a href="/lessons/lesson32.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
-													 title="Lesson 32: Comprehensive: '(', '*', '=', '}', ')'"/></a>
+													 title="Lesson 32: Comprehensive: (, *, =, }, )"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson34.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Next lesson: Lesson 34: Comprehensive, including '{' and '+'"/></a>
+												  alt="Next lesson" title="Next lesson: Lesson 34: Comprehensive, including { and +"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				{{{{ ++++ {{{{ ++++ {{{{ ++++ {{{{ ++++

@@ -4,15 +4,15 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 40: Comprehensive, including '$' and '#'</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 40: Comprehensive, including $ and #</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 40: Comprehensive, including '$' and '#'</h1>
+			<h1>Lesson 40: Comprehensive, including $ and #</h1>
 			<div class="nav">
 				<a href="/lessons/lesson39.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
-													 title="Lesson 39: introducing '$' and '#': Number row, fourth fingers"/></a>
+													 title="Lesson 39: introducing $ and #: Number row, fourth fingers"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson41.jsp"><img src="/img/right-arrow.png"

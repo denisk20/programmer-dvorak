@@ -4,11 +4,11 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 49: Introducing '%' and 8: Number row, fourth fingers</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 49: Introducing % and 8: Number row, fourth fingers</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 49: Introducing '%' and 8: Number row, fourth fingers</h1>
+			<h1>Lesson 49: Introducing % and 8: Number row, fourth fingers</h1>
 			<div class="nav">
 				<a href="/lessons/lesson48.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
@@ -16,7 +16,7 @@
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson50.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Lesson 50: Comprehensive, including '%' and 8"/></a>
+												  alt="Next lesson" title="Lesson 50: Comprehensive, including % and 8"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				%%%% 8888 %%%% 8888 %%%% 8888 %%%% 8888

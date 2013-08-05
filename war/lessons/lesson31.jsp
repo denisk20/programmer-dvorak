@@ -4,19 +4,19 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 31: Introducing '}' and ')': Number row, second fingers</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 31: Introducing } and ): Number row, second fingers</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 31: Introducing '}' and ')': Number row, second fingers</h1>
+			<h1>Lesson 31: Introducing } and ): Number row, second fingers</h1>
 			<div class="nav">
 				<a href="/lessons/lesson30.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
-													 title="Lesson 30: Introducing '(', '*' and '=': Number row, index fingers"/></a>
+													 title="Lesson 30: Introducing (, * and =: Number row, index fingers"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson32.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Next lesson: Lesson 32: Comprehensive: '(', '*', '=', '}', ')'"/></a>
+												  alt="Next lesson" title="Next lesson: Lesson 32: Comprehensive: (, *, =, }, )"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				}}}} )))) }}}} )))) }}}} )))) }}}} ))))

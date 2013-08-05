@@ -4,19 +4,19 @@
 <html>
 	<head>
 		<typingtutor:head />
-		<title>Programmer Dvorak typing tutorial: Lesson 37: introducing '&' and '!': Number row, fourth fingers</title>
+		<title>Programmer Dvorak typing tutorial: Lesson 37: introducing & and !: Number row, fourth fingers</title>
 	</head>
 	<body>
 		<div class="content">
-			<h1>Lesson 37: introducing '&' and '!': Number row, fourth fingers</h1>
+			<h1>Lesson 37: introducing & and !: Number row, fourth fingers</h1>
 			<div class="nav">
 				<a href="/lessons/lesson36.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
-													 title="Lesson 36: Comprehensive, including '[' and ']'"/></a>
+													 title="Lesson 36: Comprehensive, including [ and ]"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson38.jsp"><img src="/img/right-arrow.png"
-												  alt="Next lesson" title="Lesson 38: Comprehensive, including '&' and '!'"/></a>
+												  alt="Next lesson" title="Lesson 38: Comprehensive, including & and !"/></a>
 			</div>
 			<typingtutor:typingtutor>
 				&&&& !!!! &&&& !!!! &&&& !!!! &&&& !!!!

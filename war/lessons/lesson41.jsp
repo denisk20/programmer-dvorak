@@ -12,7 +12,7 @@
 			<div class="nav">
 				<a href="/lessons/lesson40.jsp"><img src="/img/left-arrow.png"
 													 alt="Previous lesson"
-													 title="Lesson 40: Comprehensive, including '$' and '#'"/></a>
+													 title="Lesson 40: Comprehensive, including $ and #"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
 													   alt="Table of contents" title="Table of contents" /></a>
 				<a href="/lessons/lesson42.jsp"><img src="/img/right-arrow.png"
