@@ -1,7 +1,14 @@
+body {
+	background-color: wheat;
+}
 .content {
 	margin: 0 auto;
 	width: 900px;
 	margin-bottom: 100px;
+	padding: 20px;
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	background-color: #F5F2DC;
 }
 h1 {
 	text-align: center;
