@@ -1,6 +1,9 @@
 body {
 	background-color: wheat;
 }
+a img {
+	border: none;
+}
 .content {
 	margin: 0 auto;
 	width: 900px;
