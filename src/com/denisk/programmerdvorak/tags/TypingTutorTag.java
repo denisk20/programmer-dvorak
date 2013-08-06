@@ -65,7 +65,7 @@ public class TypingTutorTag extends SimpleTagSupport {
 					+ "			errorCallback: function(errorCount){\n"
 					+ "				$('#err_" + id + "').text('Errors: ' + errorCount);\n"
 					+ "			},\n"
-					+ "         backgroundColor: '#F5F2DC'"
+					+ "         textBackgroundColor: '#F5F2DC'"
 					+ "         " + (focus ? ", focus: true" : "")
 					+ "		});\n"
 					+ "		$('#rst_" + id + "').click(function(){\n"
