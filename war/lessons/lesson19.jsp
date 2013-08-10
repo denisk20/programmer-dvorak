@@ -7,6 +7,15 @@
 		<title>Programmer Dvorak typing tutorial: Lesson 19: Comprehensive, including Y and F (full upper/home rows)</title>
 	</head>
 	<body>
+		<button class="keyboard-btn">Show Keyboard</button>
+		<div id="keyboard">
+                    <img src="/img/KB_Programmer_Dvorak.png" alt="">
+                    <div class="key-marker"></div>
+                </div>
+		<script type="text/javascript">
+                    $('#keyboard').draggable();
+                    $('#keyboard').resizable({ handles: "sw", aspectRatio: true });
+		</script>
 		<div class="content">
 			<h1>Lesson 19: Comprehensive, including Y and F (full upper/home rows)</h1>
 			<div class="nav">
@@ -29,7 +38,7 @@
 				"I defy you," cried Finley, "to find a falcon as feathery as Godfrey."
 				Granny Fay left Cindy a frilly, yet unfortunately frayed, taffeta dress.
 				In days of yesteryear, typography did not signify only fonts and typefaces.
-			</typingtutor:typingtutor>\
+			</typingtutor:typingtutor>
 			<typingtutor:typingtutor>
 				The youthful fantasy of Goofy and Donald left Francine the fallacy that life is
 				often funny.

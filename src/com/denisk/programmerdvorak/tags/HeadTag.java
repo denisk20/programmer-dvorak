@@ -21,7 +21,9 @@ public class HeadTag extends SimpleTagSupport {
 		getJspContext().getOut().append("<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n"
 				+ "<link rel=\"stylesheet\" type=\"text/css\" href=\"/styles.css\" />\n"
 				+ "<script type=\"text/javascript\" src=\"/js/jquery.1.10.2.min.js\"></script>\n"
+				+ "<script type=\"text/javascript\" src=\"/js/jquery-ui-1.10.3.custom.min.js\"></script>\n"
 				+ "<script type=\"text/javascript\" src=\"/js/jquery.browser.min.js\"></script>\n"
+				+ "<script type=\"text/javascript\" src=\"/js/KB_Programmer_Dvorak.keymap.js\"></script>\n"
 				+ "<script type=\"text/javascript\" src=\"/js/typingtutor.min.js\"></script>");
 	}
 }
