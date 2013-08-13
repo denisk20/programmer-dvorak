@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 2: Introducing E and T: Home row, Second fingers</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 2: Introducing E and T: Home row, Second fingers</h1>
 			<div class="nav">

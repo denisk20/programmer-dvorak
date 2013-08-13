@@ -53,6 +53,8 @@ public class TypingTutorTag extends SimpleTagSupport {
             out.println("<div id='err_" + id + "' class='error'></div>");
 
             out.println("<button id='rst_" + id + "'>Restart</button>");
+			
+			out.println("<button id='kbd_" + id + "' class='show-keyboard'>Show keyboard</button>");
 
             out.println("<script type=\"text/javascript\">\n"
                     + " (function() {"
@@ -91,6 +93,8 @@ public class TypingTutorTag extends SimpleTagSupport {
                     + "			$('#csp_" + id + "').text('');\n"
                     + "			$('#err_" + id + "').text('');\n"
                     + "		});\n"
+					+ "     window['typingData'][" + id + "] = {};"
+					+ "     window['typingData'][" + id + "]['tut'] = tut;"
                     + " })()"
                     + "	</script>");
         }

@@ -6,16 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 19: Comprehensive, including Y and F (full upper/home rows)</title>
 	</head>
-	<body>
-		<button class="keyboard-btn">Show Keyboard</button>
-		<div id="keyboard">
-                    <img src="/img/KB_Programmer_Dvorak.png" alt="">
-                    <div class="key-marker"></div>
-                </div>
-		<script type="text/javascript">
-                    $('#keyboard').draggable();
-                    $('#keyboard').resizable({ handles: "sw", aspectRatio: true });
-		</script>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 19: Comprehensive, including Y and F (full upper/home rows)</h1>
 			<div class="nav">
@@ -23,7 +14,7 @@
 													 alt="Previous lesson"
 													 title="Lesson 18: Introducing Y and F: Index fingers stretching up"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
-													   alt="Table of contents" title="Table of contents" /></a> <a
+															   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson20.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Next lesson: Lesson 20: Introducing K and M: Index fingers reaching down"/></a>
 			</div>

@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 30: Introducing (, * and =: Number row, index fingers</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 30: Introducing (, * and = : Number row, index fingers</h1>
 			<div class="nav">

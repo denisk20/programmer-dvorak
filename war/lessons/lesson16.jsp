@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 16: Introducing ' and L: Fourth fingers reaching up</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 16: Introducing ' and L: Fourth fingers reaching up</h1>
 			<div class="nav">

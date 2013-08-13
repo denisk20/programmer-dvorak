@@ -47,11 +47,9 @@ h1 {
 	font-size: 0.8em;
 }
 #keyboard {
-	width: 900px;
-	height: 400px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	width: 660px;
+	height: 295px;
+	display: none;
 }
 #keyboard img {
 	width: 100%;
@@ -64,6 +62,7 @@ h1 {
 	width: 30px;
 	height: 30px;
 	background-color: black;
+	cursor: sw-resize;
 }
 .key-marker {
 	position: absolute;

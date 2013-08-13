@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 9: Comprehensive, including I and D (entire home row)</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 9: Comprehensive, including I and D (entire home row)</h1>
 			<div class="nav">

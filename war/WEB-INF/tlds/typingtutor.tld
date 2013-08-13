@@ -28,4 +28,10 @@
   	<tag-class>com.denisk.programmerdvorak.tags.CopyrightWoodTag</tag-class>
   	<body-content>empty</body-content>
   </tag>
+  <tag>
+	  <name>keyboard</name>
+	  <description>Hovering keyboard that highlights next input character</description>
+	  <tag-class>com.denisk.programmerdvorak.tags.KeyboardTag</tag-class>
+	  <body-content>empty</body-content>
+  </tag>
 </taglib>
