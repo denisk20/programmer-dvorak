@@ -15,15 +15,27 @@
 
 	        <script type="text/javascript">
             $(document).ready(function() {
-            var lines1 = [
+			var lines1 = [
 
-            ];
+				'(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!',
+				'(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!'
+			
+];
+			var lines2 = [
 
-            makeup(12);
+				'!a=b++ !a=b++ !a=b++ !a=b++',
+				'*x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++',
+				'&z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c]',
+				'func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y}',
+				'{a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z',
+				'!((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t}'
+			
+];
+            makeup(38);
 
             tutor(lines1, false);
+            tutor(lines2, false);
 
-            cp();
             });
         </script>
 	</head>
@@ -31,22 +43,7 @@
 	<body> 		
 		<div class="content">
 
-			var lines1 = [
 
-				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
-				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]] &&&& !!!!
-			
-];
-			var lines1 = [
-
-				!a=b++ !a=b++ !a=b++ !a=b++
-				*x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++ *x={call(&a &b)}()++
-				&z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c] &z*=[!a !b !c]
-				func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y} func(&x, &y){&x=!&y}
-				{a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z {a,b}->{[a*b]} != &z
-				!((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t} !((var++)*(x[z+y]))->{t}
-			
-];
 		</div>
 	</body>
 </html>

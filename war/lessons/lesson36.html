@@ -15,15 +15,27 @@
 
 	        <script type="text/javascript">
             $(document).ready(function() {
-            var lines1 = [
 
-            ];
+			var lines1 = [
 
-            makeup(12);
+				'(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]',
+				'(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]'
+			
+];
+			var lines2 = [
+
+				'[{()}] [{()}] [{()}] [{()}] [=*=] [=*=] [=*=] [=*=]',
+				's(var[i++]){} s(var[i++]){} s(var[i++]){} s(var[i++]){}',
+				'a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]};',
+				'call((a*b++));  call((a*b++)); call((a*b++)); call((a*b++));',
+				'd:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)}'
+			
+];
+            makeup(36);
 
             tutor(lines1, false);
+            tutor(lines2, false);
 
-            cp();
             });
         </script>
 	</head>
@@ -31,21 +43,6 @@
 	<body> 		
 		<div class="content">
 
-			var lines1 = [
-
-				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]
-				(((( ==== **** }}}} )))) {{{{ ++++ [[[[ ]]]]
-			
-];
-			var lines1 = [
-
-				[{()}] [{()}] [{()}] [{()}] [=*=] [=*=] [=*=] [=*=]
-				s(var[i++]){} s(var[i++]){} s(var[i++]){} s(var[i++]){}
-				a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]}; a[i] += {[x++]};
-				call((a*b++));  call((a*b++)); call((a*b++)); call((a*b++)); 
-				d:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)} d:{var[a+b](z++)}
-			
-];
 		</div>
 	</body>
 </html>
