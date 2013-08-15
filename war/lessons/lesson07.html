@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-				<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="../styles.css"/>
 		<script type="text/javascript" src="../js/jquery.1.10.2.min.js"></script>
 		<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
@@ -12,32 +12,43 @@
 		<script type="text/javascript" src="../js/lessons.js"></script>
 		<script type="text/javascript" src="../js/tutor.js"></script>
 
-		
+        <script type="text/javascript">
+			$(document).ready(function() {
+				var lines1 = [
+					'aaaa eeee hhhh nnnn oooo ssss tttt uuuu',
+				'ah ah ah ah an an an an at at at at ha ha ha ha so so so so us us us us',
+				'ash ash ash ash San San San San sat sat sat sat sea sea sea sea',
+				'ease ease ease ease east east east east Haas Haas Haas Haas',
+				'Hans Hans Hans Hans hash hash hash hash sane sane sane sane',
+				'sash sash sash sash Sean Sean Sean Sean seat seat seat seat',
+				'Stan Stan Stan Stan'
+				];
+
+				var lines2 = [
+					'Sean hates tetanus shots',
+				'Eat the toast at ten to noon',
+				'The Taos sun shone as hot as Santa Anna',
+				'Anthea assesses the estate at South Tahoe',
+				'Hotshot Hanna uses these shoes that Shannon soon sees',
+				'At noon on the teahouse Aunt Tess hushes the nauseous host',
+				'Annette senses the sensuous sunset onset on the Athens sea',
+				'Tess Sutton notates the tenuous state that southeast Houston has seen',
+				'Ethan Ness attests to these Tennessee Senate OSHA statutes to shun Utah'
+				];
+
+				makeup(7);
+
+				tutor(lines1, false);
+				tutor(lines2, false);
+				
+				cp();
+			});
+		</script>
+
 	</head>
-		<body> 		
+	<body> 		
 		<div class="content">
 			
-			<typingtutor:typingtutor>
-				aaaa eeee hhhh nnnn oooo ssss tttt uuuu
-				ah ah ah ah an an an an at at at at ha ha ha ha so so so so us us us us
-				ash ash ash ash San San San San sat sat sat sat sea sea sea sea
-				ease ease ease ease east east east east Haas Haas Haas Haas
-				Hans Hans Hans Hans hash hash hash hash sane sane sane sane
-				sash sash sash sash Sean Sean Sean Sean seat seat seat seat
-				Stan Stan Stan Stan
-			</typingtutor:typingtutor>
-			<typingtutor:typingtutor>
-				Sean hates tetanus shots
-				Eat the toast at ten to noon
-				The Taos sun shone as hot as Santa Anna
-				Anthea assesses the estate at South Tahoe
-				Hotshot Hanna uses these shoes that Shannon soon sees
-				At noon on the teahouse Aunt Tess hushes the nauseous host
-				Annette senses the sensuous sunset onset on the Athens sea
-				Tess Sutton notates the tenuous state that southeast Houston has seen
-				Ethan Ness attests to these Tennessee Senate OSHA statutes to shun Utah
-			</typingtutor:typingtutor>
-			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

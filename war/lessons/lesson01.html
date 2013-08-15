@@ -13,52 +13,30 @@
 		<script type="text/javascript" src="../js/tutor.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function(){
-            var lines1 = ["aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
-            "oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ....",
-            "aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
-            "oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ...."];
-            var lines2 = ['In Lafayette, crayfish and coffee intensify the lifestyle.',
-            'I defy you," cried Finley, "to find a falcon as feathery as Godfrey.',
-            'Granny Fay left Cindy a frilly, yet unfortunately frayed, taffeta dress.',
-            'In days of yesteryear, typography did not signify only fonts and typefaces.'];
-            var lines3 = ['The youthful fantasy of Goofy and Donald left Francine the fallacy that life is',
-            'often funny.',
-            '"After the fifteenth forfeiture," uttered the referee, "Stanford is,',
-            'officially, ineffectual."',
-            'Dreyfuss thought fondly of that hefty eyeful of San Francisco\'s fog, last',
-            'Friday near the ferry.',
-            'Geoffrey\'s faculty lecture on crystallography and diffraction patterns is',
-            'usually insufficient and faulty.',
-            'If you can differentiate psychotherapy and psychoanalysis, or psychiatry and',
-            'psychology, you yourself are a psychologist.',
-            'Yesterday, as they do each payday, Sydney and Clifford playfully ran off to',
-            "the fishery for frothy glasses of Henry's Draft Ale."]
+			$(document).ready(function() {
+				var lines1 = [
+					'uuuu hhhh uuuu hhhh uuuu hhhh uuuu hhhh',
+				'uuuu hhhh uuuu hhhh uuuu hhhh uuuu hhhh',
+				'uh uh uh uh',
+				'hu hu hu hu',
+				'huh huh huh huh',
+				'uh huh uh huh uh huh uh huh',
+				'h u uh hu uhh huh uhh',
+				'h u uh hu uhh huh uhh'
+				];
 
-            makeup(19);
+				makeup(1);
 
-            tutor(lines1, false);
-            tutor(lines2, true);
-            tutor(lines3, false);
-            });
+				tutor(lines1, true);
+				
+				cp();
+			});
         </script>
-		
+
 	</head>
-		<body> 		
+	<body> 		
 		<div class="content">
 			
-			<span class="note">(This is the Beavis & Butthead lesson; it gets snazzier, trust me!)</span>
-			<typingtutor:typingtutor>
-				uuuu hhhh uuuu hhhh uuuu hhhh uuuu hhhh
-				uuuu hhhh uuuu hhhh uuuu hhhh uuuu hhhh
-				uh uh uh uh
-				hu hu hu hu
-				huh huh huh huh
-				uh huh uh huh uh huh uh huh
-				h u uh hu uhh huh uhh
-				h u uh hu uhh huh uhh
-			</typingtutor:typingtutor>
-			<typingtutor:woodcopy/>
 		</div>
 	</body>
 </html>

@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-				<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="../styles.css"/>
 		<script type="text/javascript" src="../js/jquery.1.10.2.min.js"></script>
 		<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
@@ -12,50 +12,70 @@
 		<script type="text/javascript" src="../js/lessons.js"></script>
 		<script type="text/javascript" src="../js/tutor.js"></script>
 
-		
-	</head>
-		<body> 		
-		<div class="content">
+
+	        <script type="text/javascript">
+            $(document).ready(function() {
+			var lines1 = [
+
+				'aaaa cccc dddd eeee gggg hhhh iiii nnnn oooo pppp rrrr ssss tttt uuuu ,,,, ....',
+				'aaaa cccc dddd eeee gggg hhhh iiii nnnn oooo pppp rrrr ssss tttt uuuu ,,,, ....',
 			
-			<typingtutor:typingtutor>
-				aaaa cccc dddd eeee gggg hhhh iiii nnnn oooo pppp rrrr ssss tttt uuuu ,,,, ....
-				aaaa cccc dddd eeee gggg hhhh iiii nnnn oooo pppp rrrr ssss tttt uuuu ,,,, ....
-			</typingtutor:typingtutor>
-			<typingtutor:typingtutor>
-				Schroeder desires a career as an orchestra conductor.
-				A recurring procedure irrigates the orchard and the prairie.
-				Harrison, Harriet, Arturo, and Christopher are grandparents.
-				Reagan arranged an airdrop, near the northern Pretoria corridor.
-				The erratic Richard Rodgers production returned to the Curran Theatre.
-				Carrie read the transportation report as Rosie rehearsed her transcript.
-				Roger that, in the circuit, the resistors and transistors are corroded.
-				The grocer reported that the antiperspirant had deteriorated.
-				Pierre Renoir regrets that Gerard Depardieu is not in Chartres, as desired.
-				Horns are characteristic to the rhinoceros and the Triceratops, a dinosaur.
-				Tia Carrere stars, narrates, and is the director in this torrid adaptation.
-				Gertrude, in her aristocratic grandeur, returned the carrots at the restaurant.
-				The Enterprise surprised Picard as it crisscrossed the restricted stratosphere.
-			</typingtutor:typingtutor>
-			<typingtutor:typingtutor>
-				Ritter, a character actor, returned an
-				uproarious retort to the irritating chairperson.
-				The rhetoric, the grandeur, and the
-				scripture interpretation surprised the churchgoer.
-				The choreographer restrained his rather
-				strong terpsichorean urges, and did not dance.
-				The oceanographer reports that the interior pressure is inappropriate and
-				erroneous, and orders the radar operator to intercept the pursuer.
-			</typingtutor:typingtutor>
-			<typingtutor:typingtutor>
-				Ed Harris stars as an arrogant and treacherous paratrooper, interpreting, in
-				error, orders to torture a geriatric instructor. Though his side has
-				surrendered, he continues to oppress and interrogate the retired grandparent.
-				The aggressor is arrested, arraigned, tried, and, appropriate to the horrors
-				he practiced, prosecuted and incarcerated. The granddaughter, a stenographer,
-				nurtures her grandpa, and he recuperates, though his arthritis returns.
-				In retrospect, that paragraph incorporated a preposterous R proportion.
-			</typingtutor:typingtutor>
-			<typingtutor:woodcopy/>
+];
+			var lines2 = [
+
+				'Schroeder desires a career as an orchestra conductor.',
+				'A recurring procedure irrigates the orchard and the prairie.',
+				'Harrison, Harriet, Arturo, and Christopher are grandparents.',
+				'Reagan arranged an airdrop, near the northern Pretoria corridor.',
+				'The erratic Richard Rodgers production returned to the Curran Theatre.',
+				'Carrie read the transportation report as Rosie rehearsed her transcript.',
+				'Roger that, in the circuit, the resistors and transistors are corroded.',
+				'The grocer reported that the antiperspirant had deteriorated.',
+				'Pierre Renoir regrets that Gerard Depardieu is not in Chartres, as desired.',
+				'Horns are characteristic to the rhinoceros and the Triceratops, a dinosaur.',
+				'Tia Carrere stars, narrates, and is the director in this torrid adaptation.',
+				'Gertrude, in her aristocratic grandeur, returned the carrots at the restaurant.',
+				'The Enterprise surprised Picard as it crisscrossed the restricted stratosphere.'
+			
+];
+			var lines3 = [
+
+				'Ritter, a character actor, returned an',
+				'uproarious retort to the irritating chairperson.',
+				'The rhetoric, the grandeur, and the',
+				'scripture interpretation surprised the churchgoer.',
+				'The choreographer restrained his rather',
+				'strong terpsichorean urges, and did not dance.',
+				'The oceanographer reports that the interior pressure is inappropriate and',
+				'erroneous, and orders the radar operator to intercept the pursuer.'
+			
+];
+			var lines4 = [
+
+				'Ed Harris stars as an arrogant and treacherous paratrooper, interpreting, in',
+				'error, orders to torture a geriatric instructor. Though his side has',
+				'surrendered, he continues to oppress and interrogate the retired grandparent.',
+				'The aggressor is arrested, arraigned, tried, and, appropriate to the horrors',
+				'he practiced, prosecuted and incarcerated. The granddaughter, a stenographer,',
+				'nurtures her grandpa, and he recuperates, though his arthritis returns.',
+				'In retrospect, that paragraph incorporated a preposterous R proportion.'
+			
+];
+            makeup(15);
+
+            tutor(lines1, false);
+            tutor(lines2, false);
+            tutor(lines3, false);
+            tutor(lines4, false);
+
+            cp();
+            });
+        </script>
+	</head>
+
+	<body> 		
+		<div class="content">
+
 		</div>
 	</body>
 </html>

@@ -12,16 +12,21 @@
 		<script type="text/javascript" src="../js/tutor.js"></script>
 
 		<script type="text/javascript">
-			$(document).ready(function(){
-				var lines1 = ["aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
+			$(document).ready(function() {
+				var lines1 = [
+					"aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
 					"oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ....",
 					"aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
-					"oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ...."];
-				var lines2 = ['In Lafayette, crayfish and coffee intensify the lifestyle.',
+					"oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ...."
+				];
+				var lines2 = [
+					'In Lafayette, crayfish and coffee intensify the lifestyle.',
 					'I defy you," cried Finley, "to find a falcon as feathery as Godfrey.',
 					'Granny Fay left Cindy a frilly, yet unfortunately frayed, taffeta dress.',
-					'In days of yesteryear, typography did not signify only fonts and typefaces.'];
-				var lines3 = ['The youthful fantasy of Goofy and Donald left Francine the fallacy that life is',
+					'In days of yesteryear, typography did not signify only fonts and typefaces.'
+				];
+				var lines3 = [
+					'The youthful fantasy of Goofy and Donald left Francine the fallacy that life is',
 					'often funny.',
 					'"After the fifteenth forfeiture," uttered the referee, "Stanford is,',
 					'officially, ineffectual."',
@@ -32,16 +37,31 @@
 					'If you can differentiate psychotherapy and psychoanalysis, or psychiatry and',
 					'psychology, you yourself are a psychologist.',
 					'Yesterday, as they do each payday, Sydney and Clifford playfully ran off to',
-					"the fishery for frothy glasses of Henry's Draft Ale."]
+					"the fishery for frothy glasses of Henry's Draft Ale."
+				]
 
 				makeup(19);
-				
+
 				tutor(lines1, false);
 				tutor(lines2, true);
 				tutor(lines3, false);
 			});
 		</script>
+	        <script type="text/javascript">
+            $(document).ready(function() {
+            var lines1 = [
+
+            ];
+
+            makeup(12);
+
+            tutor(lines1, false);
+
+            cp();
+            });
+        </script>
 	</head>
+
 	<body>
 		<div class="content"></div>
 	</body>

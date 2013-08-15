@@ -25,15 +25,18 @@ function makeup(lesson) {
 	$('head').append($('<title>' + LESSONS.prefix + ': ' + LESSONS[lesson] + '</title>'));
 	content.append($('<h1>' + LESSONS[lesson] + '</h1>'));
 
+	var lessonStr = new String(lesson).length > 1 ? lesson : "0" + lesson;
 	//navigation
 	var nav = $('<div class="nav"></div>');
 	if(LESSONS[lesson - 1]) {
-		var prev = $('<a href="lesson' + LESSONS[lesson - 1] + '.html"><img src="../img/left-arrow.png" alt="Previous lesson" title="' + LESSONS[lesson - 1] + '"/></a>');
+		var lessonStr = new String(lesson - 1).length > 1 ? lesson - 1: "0" + (lesson - 1);
+		var prev = $('<a href="lesson' + lessonStr + '.html"><img src="../img/left-arrow.png" alt="Previous lesson" title="' + LESSONS[lesson - 1] + '"/></a>');
 		nav.append(prev);
 	}
 	nav.append($('<a href="../index.html#lessons" class="toc"><img src="../img/toc.png" alt="Table of contents" title="Table of contents" /></a>'));
 	if(LESSONS[lesson + 1]) {
-		var next = $('<a href="lesson' + LESSONS[lesson + 1] + '.html"><img src="../img/right-arrow.png" alt="Next lesson" title="' + LESSONS[lesson + 1] + '"/></a>');
+		var lessonStr = new String(lesson + 1).length > 1 ? lesson + 1 : "0" + (lesson + 1);
+		var next = $('<a href="lesson' + lessonStr + '.html"><img src="../img/right-arrow.png" alt="Next lesson" title="' + LESSONS[lesson + 1] + '"/></a>');
 		nav.append(next);
 	}
 	content.append(nav);
@@ -114,7 +117,6 @@ function tutor(lines, focus, content) {
 		}
 	});
 
-
 	//todo get rid of id altogether
 	rst.click(function() {
 		tut.restart();
@@ -125,3 +127,9 @@ function tutor(lines, focus, content) {
 	return tut;
 }
 
+/**
+ * Copyright of Dan Wood
+ */
+function cp(){
+	$('.content').append($('<div class="copyright">This lesson has been created by Dan Wood. Original can be found here: <a href="http://gigliwood.com/abcd/lessons/">http://gigliwood.com/abcd/lessons/</a></div>'));
+}
