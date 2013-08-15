@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 32: Comprehensive: (, *, =, }, )</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 32: Comprehensive: (, *, =, }, )</h1>
 			<div class="nav">

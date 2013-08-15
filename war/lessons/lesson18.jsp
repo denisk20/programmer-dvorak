@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 18: Introducing Y and F: Index fingers stretching up</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 18: Introducing Y and F: Index fingers stretching up</h1>
 			<div class="nav">

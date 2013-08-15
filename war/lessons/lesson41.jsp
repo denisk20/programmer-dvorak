@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 41: Introducing 1, 9 and 0: Number row, index fingers</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 41: Introducing 1, 9 and 0: Number row, index fingers</h1>
 			<div class="nav">

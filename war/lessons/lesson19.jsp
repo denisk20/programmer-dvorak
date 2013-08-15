@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 19: Comprehensive, including Y and F (full upper/home rows)</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 19: Comprehensive, including Y and F (full upper/home rows)</h1>
 			<div class="nav">
@@ -14,7 +14,7 @@
 													 alt="Previous lesson"
 													 title="Lesson 18: Introducing Y and F: Index fingers stretching up"/></a>
 				<a href="/index.html#lessons" class="toc"><img src="/img/toc.png"
-													   alt="Table of contents" title="Table of contents" /></a> <a
+															   alt="Table of contents" title="Table of contents" /></a> <a
 					href="/lessons/lesson20.jsp"><img src="/img/right-arrow.png"
 												  alt="Next lesson" title="Next lesson: Lesson 20: Introducing K and M: Index fingers reaching down"/></a>
 			</div>
@@ -29,7 +29,7 @@
 				"I defy you," cried Finley, "to find a falcon as feathery as Godfrey."
 				Granny Fay left Cindy a frilly, yet unfortunately frayed, taffeta dress.
 				In days of yesteryear, typography did not signify only fonts and typefaces.
-			</typingtutor:typingtutor>\
+			</typingtutor:typingtutor>
 			<typingtutor:typingtutor>
 				The youthful fantasy of Goofy and Donald left Francine the fallacy that life is
 				often funny.

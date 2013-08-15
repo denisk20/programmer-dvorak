@@ -6,7 +6,7 @@
 		<typingtutor:head />
 		<title>Programmer Dvorak typing tutorial: Lesson 42: Comprehensive, including 1, 9 and 0</title>
 	</head>
-	<body>
+		<body> 		<typingtutor:keyboard/> 
 		<div class="content">
 			<h1>Lesson 42: Comprehensive, including 1, 9 and 0</h1>
 			<div class="nav">
