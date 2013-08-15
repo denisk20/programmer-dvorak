@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="../styles.css"/>
+		<script type="text/javascript" src="../js/jquery.1.10.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.browser.min.js"></script>
+		<script type="text/javascript" src="../js/typingtutor.js"></script>
+		<script type="text/javascript" src="../js/lessons.js"></script>
+		<script type="text/javascript" src="../js/tutor.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var lines1 = ["aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
+					"oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ....",
+					"aaaa cccc dddd eeee ffff gggg hhhh iiii llll nnnn",
+					"oooo pppp rrrr ssss tttt uuuu yyyy '''' ,,,, ...."];
+				var lines2 = ['In Lafayette, crayfish and coffee intensify the lifestyle.',
+					'I defy you," cried Finley, "to find a falcon as feathery as Godfrey.',
+					'Granny Fay left Cindy a frilly, yet unfortunately frayed, taffeta dress.',
+					'In days of yesteryear, typography did not signify only fonts and typefaces.'];
+				var lines3 = ['The youthful fantasy of Goofy and Donald left Francine the fallacy that life is',
+					'often funny.',
+					'"After the fifteenth forfeiture," uttered the referee, "Stanford is,',
+					'officially, ineffectual."',
+					'Dreyfuss thought fondly of that hefty eyeful of San Francisco\'s fog, last',
+					'Friday near the ferry.',
+					'Geoffrey\'s faculty lecture on crystallography and diffraction patterns is',
+					'usually insufficient and faulty.',
+					'If you can differentiate psychotherapy and psychoanalysis, or psychiatry and',
+					'psychology, you yourself are a psychologist.',
+					'Yesterday, as they do each payday, Sydney and Clifford playfully ran off to',
+					"the fishery for frothy glasses of Henry's Draft Ale."]
+
+				makeup(19);
+				
+				tutor(lines1, false);
+				tutor(lines2, true);
+				tutor(lines3, false);
+			});
+		</script>
+	</head>
+	<body>
+		<div class="content"></div>
+	</body>
+</html>
