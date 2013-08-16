@@ -187,6 +187,8 @@ var PROGRAMMER_DVORAK_KEYMAP = {
 	//========================BOTTOM ROW================================
 	
 	//SHIFT has width s
+	//SHIFT
+	16 : {x1: 0, y1: (kh+vg)*3, x2: s-hg, y2: (kh+vg)*4-vg},
 	//'
 	39 : {x1: s, y1: (kh+vg)*3, x2: s+kw, y2: (kh+vg)*4-vg},
 	//"

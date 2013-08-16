@@ -6,7 +6,21 @@ jQuery.fn.center = function() {
 	this.css("left", $(window).width() - $(this).outerWidth() + "px");
 	return this;
 }
-function highlightChar(key, kbd, keyMark) {
+function highlightChars(keys) {
+	if(!$.isArray(keys)) {
+		keys = [keys];
+	}
+	var kbd = $('.keyboard');
+	kbd.find('.key-marker').remove();
+	$.each(keys, function(i, key) {
+		var keyMark = $('<div class="key-marker"></div>');
+		kbd.append(keyMark);
+		highlightChar(key, kbd, keyMark);
+	});
+
+}
+
+function highlightChar(key, kbd, keyMark){
 	var coords = PROGRAMMER_DVORAK_KEYMAP[key];
 	if(coords) {
 		var w = kbd.width();
@@ -17,7 +31,6 @@ function highlightChar(key, kbd, keyMark) {
 		keyMark.height((coords.y2 - coords.y1) + '%');
 	}
 }
-
 function makeup(lesson) {
 	var content = $('.content');
 	//header
@@ -86,16 +99,7 @@ function tutor(lines, focus, content) {
 			err.text('Errors: ' + errCount);
 		},
 		nextKeyCallback: function(keys) {
-			if(!$.isArray(keys)) {
-				keys = [keys];
-			}
-			var kbd = $('.keyboard');
-			kbd.find('.key-marker').remove();
-			$.each(keys, function(i, key) {
-				var keyMark = $('<div class="key-marker"></div>');
-				kbd.append(keyMark);
-				highlightChar(key, kbd, keyMark);
-			});
+				highlightChars(keys);
 		},
 		textBackgroundColor: '#F5F2DC',
 		focus: focus
@@ -107,10 +111,7 @@ function tutor(lines, focus, content) {
 			kbd.hide();
 			$(this).text("Show keyboard");
 		} else {
-			kbd.find('.key-marker').remove();
-			var keyMark = $('<div class="key-marker"></div>');
-			kbd.append(keyMark);
-			highlightChar(tut.nextKeys, kbd, keyMark);
+			highlightChars(tut.nextKeys);
 			kbd.center();
 			kbd.show();
 			$(this).text("Hide keyboard");
