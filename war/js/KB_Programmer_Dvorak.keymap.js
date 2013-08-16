@@ -1,224 +1,235 @@
+/**
+ * Amounts are in percent of keyboard width/height.
+ * 
+ * This describes KB_Programmer_Dvorak.png (svg) keyboard, from /img
+ */
+ 
 //key width
-var w = 6.58;
+var kw = 6.0;
+//horizontal gap
+var hg = 0.65;
+
 //key height
-var h = 19.5;
+var kh = 19.0;
+//vertical gap
+var vg = 0.65;
+
 //caps lock width
 var cl = 11.67;
 //tab width
-var t = 10;
+var t = 9.8;
 //shift width
 var s = 14.89;
 
 var PROGRAMMER_DVORAK_KEYMAP = {
 	//===============NUMBER ROW==============================
 	//$
-	36 : {x1: 0, y1: 0, x2: w, y2: h},
+	36 : {x1: 0, y1: 0, x2: kw, y2: kh},
 	//~
-	126: {x1: 0, y1: 0, x2: w, y2: h},
+	126: {x1: 0, y1: 0, x2: kw, y2: kh},
 	//&
-	38 : {x1: w, y1: 0, x2: w*2, y2: h},
+	38 : {x1: (kw+hg), y1: 0, x2: (kw+hg)*2-hg, y2: kh},
 	//%
-	37 : {x1: w, y1: 0, x2: w*2, y2: h},
+	37 : {x1: (kw+hg), y1: 0, x2: (kw+hg)*2-hg, y2: kh},
 	//[
-	91 : {x1: w*2, y1: 0, x2: w*3, y2: h},
+	91 : {x1: (kw+hg)*2, y1: 0, x2: (kw+hg)*3-hg, y2: kh},
 	//7
-	55 : {x1: w*2, y1: 0, x2: w*3, y2: h},
+	55 : {x1: (kw+hg)*2, y1: 0, x2: (kw+hg)*3-hg, y2: kh},
 	//{
-	123 : {x1: w*3, y1: 0, x2: w*4, y2: h},
+	123 : {x1: (kw+hg)*3, y1: 0, x2: (kw+hg)*4-hg, y2: kh},
 	//5
-	53 : {x1: w*3, y1: 0, x2: w*4, y2: h},
+	53 : {x1: (kw+hg)*3, y1: 0, x2: (kw+hg)*4-hg, y2: kh},
 	//}
-	125 : {x1: w*4, y1: 0, x2: w*5, y2: h},
+	125 : {x1: (kw+hg)*4, y1: 0, x2: (kw+hg)*5-hg, y2: kh},
 	//3
-	51 : {x1: w*4, y1: 0, x2: w*5, y2: h},
+	51 : {x1: (kw+hg)*4, y1: 0, x2: (kw+hg)*5-hg, y2: kh},
 	//(
-	40 : {x1: w*5, y1: 0, x2: w*6, y2: h},
+	40 : {x1: (kw+hg)*5, y1: 0, x2: (kw+hg)*6-hg, y2: kh},
 	//1
-	49 : {x1: w*5, y1: 0, x2: w*6, y2: h},
+	49 : {x1: (kw+hg)*5, y1: 0, x2: (kw+hg)*6-hg, y2: kh},
 	//=
-	61 : {x1: w*6, y1: 0, x2: w*7, y2: h},
+	61 : {x1: (kw+hg)*6, y1: 0, x2: (kw+hg)*7-hg, y2: kh},
 	//9
-	57 : {x1: w*6, y1: 0, x2: w*7, y2: h},
+	57 : {x1: (kw+hg)*6, y1: 0, x2: (kw+hg)*7-hg, y2: kh},
 	//*
-	42 : {x1: w*7, y1: 0, x2: w*8, y2: h},
+	42 : {x1: (kw+hg)*7, y1: 0, x2: (kw+hg)*8-hg, y2: kh},
 	//0
-	48 : {x1: w*7, y1: 0, x2: w*8, y2: h},
+	48 : {x1: (kw+hg)*7, y1: 0, x2: (kw+hg)*8-hg, y2: kh},
 	//)
-	41 : {x1: w*8, y1: 0, x2: w*4, y2: h},
+	41 : {x1: (kw+hg)*8, y1: 0, x2: (kw+hg)*9-hg, y2: kh},
 	//2
-	50 : {x1: w*8, y1: 0, x2: w*9, y2: h},
+	50 : {x1: (kw+hg)*8, y1: 0, x2: (kw+hg)*9-hg, y2: kh},
 	//+
-	43 : {x1: w*3, y1: 0, x2: w*9, y2: h},
+	43 : {x1: (kw+hg)*9, y1: 0, x2: (kw+hg)*10-hg, y2: kh},
 	//4
-	52 : {x1: w*9, y1: 0, x2: w*10, y2: h},
+	52 : {x1: (kw+hg)*9, y1: 0, x2: (kw+hg)*10-hg, y2: kh},
 	//]
-	93 : {x1: w*9, y1: 0, x2: w*10, y2: h},
+	93 : {x1: (kw+hg)*10, y1: 0, x2: (kw+hg)*11-hg, y2: kh},
 	//6
-	54 : {x1: w*10, y1: 0, x2: w*11, y2: h},
+	54 : {x1: (kw+hg)*10, y1: 0, x2: (kw+hg)*11-hg, y2: kh},
 	//!
-	33 : {x1: w*10, y1: 0, x2: w*11, y2: h},
+	33 : {x1: (kw+hg)*11, y1: 0, x2: (kw+hg)*12-hg, y2: kh},
 	//8
-	56 : {x1: w*11, y1: 0, x2: w*12, y2: h},
+	56 : {x1: (kw+hg)*11, y1: 0, x2: (kw+hg)*12-hg, y2: kh},
 	//#
-	35 : {x1: w*11, y1: 0, x2: w*12, y2: h},
+	35 : {x1: (kw+hg)*12, y1: 0, x2: (kw+hg)*13-hg, y2: kh},
 	//`
-	96 : {x1: w*12, y1: 0, x2: w*13, y2: h},
+	96 : {x1: (kw+hg)*12, y1: 0, x2: (kw+hg)*13-hg, y2: kh},
 	//BACKSPACE
-	8 : {x1: w*12, y1: 0, x2: w*13, y2: h},
+	8 : {x1: (kw+hg)*13, y1: 0, x2: 100-hg, y2: kh},
 	
 	//============================UPPER ROW==========================
 	//TAB key has width t
 	
 	//;
-	59 : {x1: t, y1: h, x2: t+w, y2: h*2},
+	59 : {x1: t, y1: (kh+vg), x2: t+kw, y2: (kh+vg)*2-vg},
 	//:
-	58 : {x1: t, y1: h, x2: t+w, y2: h*2},
+	58 : {x1: t, y1: (kh+vg), x2: t+kw, y2: (kh+vg)*2-vg},
 	//,
-	44 : {x1: t+w, y1: h, x2: t+w*2, y2: h*2},
+	44 : {x1: t+(kw+hg), y1: (kh+vg), x2: t+(kw+hg)*2-hg, y2: (kh+vg)*2-vg},
 	//<
-	60 : {x1: t+w, y1: h, x2: t+w*2, y2: h*2},
+	60 : {x1: t+(kw+hg), y1: (kh+vg), x2: t+(kw+hg)*2-hg, y2: (kh+vg)*2-vg},
 	//.
-	46 : {x1: t+w*2, y1: h, x2: t+w*3, y2: h*2},
+	46 : {x1: t+(kw+hg)*2, y1: (kh+vg), x2: t+(kw+hg)*3-hg, y2: (kh+vg)*2-vg},
 	//>
-	62 : {x1: t+w*2, y1: h, x2: t+w*3, y2: h*2},
+	62 : {x1: t+(kw+hg)*2, y1: (kh+vg), x2: t+(kw+hg)*3-hg, y2: (kh+vg)*2-vg},
 	//p
-	112 : {x1: t+w*3, y1: h, x2: t+w*4, y2: h*2},
+	112 : {x1: t+(kw+hg)*3, y1: (kh+vg), x2: t+(kw+hg)*4-hg, y2: (kh+vg)*2-vg},
 	//P
-	80 : {x1: t+w*3, y1: h, x2: t+w*4, y2: h*2},
+	80 : {x1: t+(kw+hg)*3, y1: (kh+vg), x2: t+(kw+hg)*4-hg, y2: (kh+vg)*2-vg},
 	//y
-	121 : {x1: t+w*4, y1: h, x2: t+w*5, y2: h*2},
+	121 : {x1: t+(kw+hg)*4, y1: (kh+vg), x2: t+(kw+hg)*5-hg, y2: (kh+vg)*2-vg},
 	//Y
-	89 : {x1: t+w*4, y1: h, x2: t+w*5, y2: h*2},
+	89 : {x1: t+(kw+hg)*4, y1: (kh+vg), x2: t+(kw+hg)*5-hg, y2: (kh+vg)*2-vg},
 	//f
-	102 : {x1: t+w*5, y1: h, x2: t+w*6, y2: h*2},
+	102 : {x1: t+(kw+hg)*5, y1: (kh+vg), x2: t+(kw+hg)*6-hg, y2: (kh+vg)*2-vg},
 	//F
-	70 : {x1: t+w*5, y1: h, x2: t+w*6, y2: h*2},
+	70 : {x1: t+(kw+hg)*5, y1: (kh+vg), x2: t+(kw+hg)*6-hg, y2: (kh+vg)*2-vg},
 	//g
-	103 : {x1: t+w*6, y1: h, x2: t+w*7, y2: h*2},
+	103 : {x1: t+(kw+hg)*6, y1: (kh+vg), x2: t+(kw+hg)*7-hg, y2: (kh+vg)*2-vg},
 	//G
-	71 : {x1: t+w*6, y1: h, x2: t+w*7, y2: h*2},
+	71 : {x1: t+(kw+hg)*6, y1: (kh+vg), x2: t+(kw+hg)*7-hg, y2: (kh+vg)*2-vg},
 	//c
-	99 : {x1: t+w*7, y1: h, x2: t+w*8, y2: h*2},
+	99 : {x1: t+(kw+hg)*7, y1: (kh+vg), x2: t+(kw+hg)*8-hg, y2: (kh+vg)*2-vg},
 	//C
-	67 : {x1: t+w*7, y1: h, x2: t+w*8, y2: h*2},
+	67 : {x1: t+(kw+hg)*7, y1: (kh+vg), x2: t+(kw+hg)*8-hg, y2: (kh+vg)*2-vg},
 	//r
-	114 : {x1: t+w*8, y1: h, x2: t+w*9, y2: h*2},
+	114 : {x1: t+(kw+hg)*8, y1: (kh+vg), x2: t+(kw+hg)*9-hg, y2: (kh+vg)*2-vg},
 	//R
-	82 : {x1: t+w*8, y1: h, x2: t+w*9, y2: h*2},
+	82 : {x1: t+(kw+hg)*8, y1: (kh+vg), x2: t+(kw+hg)*9-hg, y2: (kh+vg)*2-vg},
 	//l
-	108 : {x1: t+w*9, y1: h, x2: t+w*10, y2: h*2},
+	108 : {x1: t+(kw+hg)*9, y1: (kh+vg), x2: t+(kw+hg)*10-hg, y2: (kh+vg)*2-vg},
 	//L
-	76 : {x1: t+w*9, y1: h, x2: t+w*10, y2: h*2},
+	76 : {x1: t+(kw+hg)*9, y1: (kh+vg), x2: t+(kw+hg)*10-hg, y2: (kh+vg)*2-vg},
 	///
-	47 : {x1: t+w*10, y1: h, x2: t+w*11, y2: h*2},
+	47 : {x1: t+(kw+hg)*10, y1: (kh+vg), x2: t+(kw+hg)*11-hg, y2: (kh+vg)*2-vg},
 	//?
-	63 : {x1: t+w*10, y1: h, x2: t+w*11, y2: h*2},
+	63 : {x1: t+(kw+hg)*10, y1: (kh+vg), x2: t+(kw+hg)*11-hg, y2: (kh+vg)*2-vg},
 	//@
-	64 : {x1: t+w*11, y1: h, x2: t+w*12, y2: h*2},
+	64 : {x1: t+(kw+hg)*11, y1: (kh+vg), x2: t+(kw+hg)*12-hg, y2: (kh+vg)*2-vg},
 	//^
-	94 : {x1: t+w*11, y1: h, x2: t+w*12, y2: h*2},
+	94 : {x1: t+(kw+hg)*11, y1: (kh+vg), x2: t+(kw+hg)*12-hg, y2: (kh+vg)*2-vg},
 	//\
-	92 : {x1: t+w*12, y1: h, x2: t+w*13, y2: h*2},
+	92 : {x1: t+(kw+hg)*12, y1: (kh+vg), x2: t+(kw+hg)*13-hg, y2: (kh+vg)*2-vg},
 	//|
-	124 : {x1: t+w*12, y1: h, x2: t+w*13, y2: h*2},
+	124 : {x1: t+(kw+hg)*12, y1: (kh+vg), x2: t+(kw+hg)*13-hg, y2: (kh+vg)*2-vg},
 	
 	//========================HOME ROW============================
 	//Caps Lock has width cl
 	
 	//a
-	97 : {x1: cl, y1: h*2, x2: cl+w, y2: h*3},
+	97 : {x1: cl, y1: (kh+vg)*2, x2: cl+kw, y2: (kh+vg)*3-vg},
 	//A
-	65 : {x1: cl, y1: h*2, x2: cl+w, y2: h*3},
+	65 : {x1: cl, y1: (kh+vg)*2, x2: cl+kw, y2: (kh+vg)*3-vg},
 	//o
-	111 : {x1: cl+w, y1: h*2, x2: cl+w*2, y2: h*3},
+	111 : {x1: cl+(kw+hg), y1: (kh+vg)*2, x2: cl+(kw+hg)*2-hg, y2: (kh+vg)*3-vg},
 	//O
-	79 : {x1: cl+w, y1: h*2, x2: cl+w*2, y2: h*3},
+	79 : {x1: cl+(kw+hg), y1: (kh+vg)*2, x2: cl+(kw+hg)*2-hg, y2: (kh+vg)*3-vg},
 	//e
-	101 : {x1: cl+w*2, y1: h*2, x2: cl+w*3, y2: h*3},
+	101 : {x1: cl+(kw+hg)*2, y1: (kh+vg)*2, x2: cl+(kw+hg)*3-hg, y2: (kh+vg)*3-vg},
 	//E
-	69 : {x1: cl+w*2, y1: h*2, x2: cl+w*3, y2: h*3},
+	69 : {x1: cl+(kw+hg)*2, y1: (kh+vg)*2, x2: cl+(kw+hg)*3-hg, y2: (kh+vg)*3-vg},
 	//u
-	117 : {x1: cl+w*3, y1: h*2, x2: cl+w*4, y2: h*3},
+	117 : {x1: cl+(kw+hg)*3, y1: (kh+vg)*2, x2: cl+(kw+hg)*4-hg, y2: (kh+vg)*3-vg},
 	//U
-	85 : {x1: cl+w*3, y1: h*2, x2: cl+w*4, y2: h*3},
+	85 : {x1: cl+(kw+hg)*3, y1: (kh+vg)*2, x2: cl+(kw+hg)*4-hg, y2: (kh+vg)*3-vg},
 	//i
-	105 : {x1: cl+w*4, y1: h*2, x2: cl+w*5, y2: h*3},
+	105 : {x1: cl+(kw+hg)*4, y1: (kh+vg)*2, x2: cl+(kw+hg)*5-hg, y2: (kh+vg)*3-vg},
 	//I
-	73 : {x1: cl+w*4, y1: h*2, x2: cl+w*5, y2: h*3},
+	73 : {x1: cl+(kw+hg)*4, y1: (kh+vg)*2, x2: cl+(kw+hg)*5-hg, y2: (kh+vg)*3-vg},
 	//d
-	100 : {x1: cl+w*5, y1: h*2, x2: cl+w*6, y2: h*3},
+	100 : {x1: cl+(kw+hg)*5, y1: (kh+vg)*2, x2: cl+(kw+hg)*6-hg, y2: (kh+vg)*3-vg},
 	//D
-	68 : {x1: cl+w*5, y1: h*2, x2: cl+w*6, y2: h*3},
+	68 : {x1: cl+(kw+hg)*5, y1: (kh+vg)*2, x2: cl+(kw+hg)*6-hg, y2: (kh+vg)*3-vg},
 	//h
-	104 : {x1: cl+w*6, y1: h*2, x2: cl+w*7, y2: h*3},
+	104 : {x1: cl+(kw+hg)*6, y1: (kh+vg)*2, x2: cl+(kw+hg)*7-hg, y2: (kh+vg)*3-vg},
 	//H
-	72 : {x1: cl+w*6, y1: h*2, x2: cl+w*7, y2: h*3},
+	72 : {x1: cl+(kw+hg)*6, y1: (kh+vg)*2, x2: cl+(kw+hg)*7-hg, y2: (kh+vg)*3-vg},
 	//t
-	116 : {x1: cl+w*7, y1: h*2, x2: cl+w*8, y2: h*3},
+	116 : {x1: cl+(kw+hg)*7, y1: (kh+vg)*2, x2: cl+(kw+hg)*8-hg, y2: (kh+vg)*3-vg},
 	//T
-	84 : {x1: cl+w*7, y1: h*2, x2: cl+w*8, y2: h*3},
+	84 : {x1: cl+(kw+hg)*7, y1: (kh+vg)*2, x2: cl+(kw+hg)*8-hg, y2: (kh+vg)*3-vg},
 	//n
-	110 : {x1: cl+w*8, y1: h*2, x2: cl+w*9, y2: h*3},
+	110 : {x1: cl+(kw+hg)*8, y1: (kh+vg)*2, x2: cl+(kw+hg)*9-hg, y2: (kh+vg)*3-vg},
 	//N
-	78 : {x1: cl+w*8, y1: h*2, x2: cl+w*9, y2: h*3},
+	78 : {x1: cl+(kw+hg)*8, y1: (kh+vg)*2, x2: cl+(kw+hg)*9-hg, y2: (kh+vg)*3-vg},
 	//s
-	115 : {x1: cl+w*9, y1: h*2, x2: cl+w*10, y2: h*3},
+	115 : {x1: cl+(kw+hg)*9, y1: (kh+vg)*2, x2: cl+(kw+hg)*10-hg, y2: (kh+vg)*3-vg},
 	//S
-	83 : {x1: cl+w*9, y1: h*2, x2: cl+w*10, y2: h*3},
+	83 : {x1: cl+(kw+hg)*9, y1: (kh+vg)*2, x2: cl+(kw+hg)*10-hg, y2: (kh+vg)*3-vg},
 	//-
-	45 : {x1: cl+w*10, y1: h*2, x2: cl+w*11, y2: h*3},
+	45 : {x1: cl+(kw+hg)*10, y1: (kh+vg)*2, x2: cl+(kw+hg)*11-hg, y2: (kh+vg)*3-vg},
 	//_
-	95 : {x1: cl+w*10, y1: h*2, x2: cl+w*11, y2: h*3},
+	95 : {x1: cl+(kw+hg)*10, y1: (kh+vg)*2, x2: cl+(kw+hg)*11-hg, y2: (kh+vg)*3-vg},
 	//ENTER
-	13 : {x1: cl+w*11, y1: h*2, x2: cl+w*12, y2: h*3},
+	13 : {x1: cl+(kw+hg)*11, y1: (kh+vg)*2, x2: 100-hg, y2: (kh+vg)*3-vg},
 			
 	//========================BOTTOM ROW================================
 	
-	//shift has width 14.89
-	
+	//SHIFT has width s
 	//'
-	39 : {x1: s, y1: h*3, x2: s+w, y2: h*4},
+	39 : {x1: s, y1: (kh+vg)*3, x2: s+kw, y2: (kh+vg)*4-vg},
 	//"
-	34 : {x1: s, y1: h*3, x2: s+w, y2: h*4},
+	34 : {x1: s, y1: (kh+vg)*3, x2: s+kw, y2: (kh+vg)*4-vg},
 	//q
-	113 : {x1: s+w, y1: h*3, x2: s+w*2, y2: h*4},
+	113 : {x1: s+(kw+hg), y1: (kh+vg)*3, x2: s+(kw+hg)*2-hg, y2: (kh+vg)*4-vg},
 	//Q
-	81 : {x1: s+w, y1: h*3, x2: s+w*2, y2: h*4},
+	81 : {x1: s+(kw+hg), y1: (kh+vg)*3, x2: s+(kw+hg)*2-hg, y2: (kh+vg)*4-vg},
 	//j
-	106 : {x1: s+w*2, y1: h*3, x2: s+w*3, y2: h*4},
+	106 : {x1: s+(kw+hg)*2, y1: (kh+vg)*3, x2: s+(kw+hg)*3-hg, y2: (kh+vg)*4-vg},
 	//J
-	74 : {x1: s+w*2, y1: h*3, x2: s+w*3, y2: h*4},
+	74 : {x1: s+(kw+hg)*2, y1: (kh+vg)*3, x2: s+(kw+hg)*3-hg, y2: (kh+vg)*4-vg},
 	//k
-	107 : {x1: s+w*3, y1: h*3, x2: s+w*4, y2: h*4},
+	107 : {x1: s+(kw+hg)*3, y1: (kh+vg)*3, x2: s+(kw+hg)*4-hg, y2: (kh+vg)*4-vg},
 	//K
-	75 : {x1: s+w*3, y1: h*3, x2: s+w*4, y2: h*4},
+	75 : {x1: s+(kw+hg)*3, y1: (kh+vg)*3, x2: s+(kw+hg)*4-hg, y2: (kh+vg)*4-vg},
 	//x
-	120 : {x1: s+w*4, y1: h*3, x2: s+w*5, y2: h*4},
+	120 : {x1: s+(kw+hg)*4, y1: (kh+vg)*3, x2: s+(kw+hg)*5-hg, y2: (kh+vg)*4-vg},
 	//X
-	88 : {x1: s+w*4, y1: h*3, x2: s+w*5, y2: h*4},
+	88 : {x1: s+(kw+hg)*4, y1: (kh+vg)*3, x2: s+(kw+hg)*5-hg, y2: (kh+vg)*4-vg},
 	//b
-	98 : {x1: s+w*5, y1: h*3, x2: s+w*6, y2: h*4},
+	98 : {x1: s+(kw+hg)*5, y1: (kh+vg)*3, x2: s+(kw+hg)*6-hg, y2: (kh+vg)*4-vg},
 	//B
-	66 : {x1: s+w*5, y1: h*3, x2: s+w*6, y2: h*4},
+	66 : {x1: s+(kw+hg)*5, y1: (kh+vg)*3, x2: s+(kw+hg)*6-hg, y2: (kh+vg)*4-vg},
 	//m
-	109 : {x1: s+w*6, y1: h*3, x2: s+w*7, y2: h*4},
+	109 : {x1: s+(kw+hg)*6, y1: (kh+vg)*3, x2: s+(kw+hg)*7-hg, y2: (kh+vg)*4-vg},
 	//M
-	77 : {x1: s+w*6, y1: h*3, x2: s+w*7, y2: h*4},
+	77 : {x1: s+(kw+hg)*6, y1: (kh+vg)*3, x2: s+(kw+hg)*7-hg, y2: (kh+vg)*4-vg},
 	//w
-	119 : {x1: s+w*7, y1: h*3, x2: s+w*8, y2: h*4},
+	119 : {x1: s+(kw+hg)*7, y1: (kh+vg)*3, x2: s+(kw+hg)*8-hg, y2: (kh+vg)*4-vg},
 	//W
-	87 : {x1: s+w*7, y1: h*3, x2: s+w*8, y2: h*4},
+	87 : {x1: s+(kw+hg)*7, y1: (kh+vg)*3, x2: s+(kw+hg)*8-hg, y2: (kh+vg)*4-vg},
 	//v
-	118 : {x1: s+w*8, y1: h*3, x2: s+w*9, y2: h*4},
+	118 : {x1: s+(kw+hg)*8, y1: (kh+vg)*3, x2: s+(kw+hg)*9-hg, y2: (kh+vg)*4-vg},
 	//V
-	86 : {x1: s+w*8, y1: h*3, x2: s+w*9, y2: h*4},
+	86 : {x1: s+(kw+hg)*8, y1: (kh+vg)*3, x2: s+(kw+hg)*9-hg, y2: (kh+vg)*4-vg},
 	//z
-	122 : {x1: s+w*9, y1: h*3, x2: s+w*10, y2: h*4},
+	122 : {x1: s+(kw+hg)*9, y1: (kh+vg)*3, x2: s+(kw+hg)*10-hg, y2: (kh+vg)*4-vg},
 	//Z
-	90 : {x1: s+w*9, y1: h*3, x2: s+w*10, y2: h*4},
+	90 : {x1: s+(kw+hg)*9, y1: (kh+vg)*3, x2: s+(kw+hg)*10-hg, y2: (kh+vg)*4-vg},
 	
 	//===============VERY BOTTOM ROW=======================
 	
 	//whitespace
-	32 : {x1: 26.67, y1: h*4, x2: 66, y2: h*5},
+	32 : {x1: 26.67, y1: (kh+vg)*4, x2: 66, y2: 100-hg},
 }
