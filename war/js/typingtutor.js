@@ -140,13 +140,11 @@
 				if(currentLineText.length > ntp) {
 					if(currentLineText.charAt(ntp) === ' ' && ntp === currentLineText.length - 1) {
 						//either whitespace or enter are allowed to move to the next line
-						settings.nextKeyCallback.call(this, [13, 32]);
 						res.nextKeys = [13, 32];
 					} else {
-						var next = currentLineText.charCodeAt(ntp);
-						settings.nextKeyCallback.call(this, next);
-						res.nextKeys = next;
+						res.nextKeys = [currentLineText.charCodeAt(ntp)];
 					}
+					settings.nextKeyCallback.call(this, res.nextKeys);
 				}
 			}
 		}
@@ -239,6 +237,7 @@
 			}
 		};
 		var keyDown = function(e) {
+			console.log(e.which)
 			//skip arrow keys
 			if($.inArray(e.keyCode, [37, 38, 39, 40]) !== -1){
 				e.preventDefault();

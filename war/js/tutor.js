@@ -13,22 +13,25 @@ function highlightChars(keys) {
 	var kbd = $('.keyboard');
 	kbd.find('.key-marker').remove();
 	$.each(keys, function(i, key) {
-		var keyMark = $('<div class="key-marker"></div>');
-		kbd.append(keyMark);
-		highlightChar(key, kbd, keyMark);
+		var keyData = PROGRAMMER_DVORAK_KEYMAP[key];
+		highlightChar(keyData, kbd);
+		if(keyData.upper){
+			//add shift
+			highlightChar(PROGRAMMER_DVORAK_KEYMAP[16], kbd);
+		}
 	});
 
 }
 
-function highlightChar(key, kbd, keyMark){
-	var coords = PROGRAMMER_DVORAK_KEYMAP[key];
-	if(coords) {
-		var w = kbd.width();
-		var h = kbd.height();
-		keyMark.css('left', coords.x1 + '%');
-		keyMark.css('top', coords.y1 + '%');
-		keyMark.width((coords.x2 - coords.x1) + '%');
-		keyMark.height((coords.y2 - coords.y1) + '%');
+function highlightChar(keyData, kbd){
+	if(keyData) {
+		var keyMark = $('<div class="key-marker"></div>');
+		kbd.append(keyMark);
+
+		keyMark.css('left', keyData.x1 + '%');
+		keyMark.css('top', keyData.y1 + '%');
+		keyMark.width((keyData.x2 - keyData.x1) + '%');
+		keyMark.height((keyData.y2 - keyData.y1) + '%');
 	}
 }
 function makeup(lesson) {
