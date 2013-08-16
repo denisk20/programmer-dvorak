@@ -1,4 +1,5 @@
 var LESSONS = {
+	'count': '52',
 	'prefix' : 'Programmer Dvorak typing tutorial',
 	1: 'Lesson 1: Introducing U and H: Home row, Index fingers',
 	2: 'Lesson 2: Introducing E and T: Home row, Second fingers',

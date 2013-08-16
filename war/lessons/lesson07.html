@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="../js/typingtutor.js"></script>
 		<script type="text/javascript" src="../js/lessons.js"></script>
 		<script type="text/javascript" src="../js/tutor.js"></script>
+        <script type="text/javascript" src="../js/cookies.js"></script>
 
         <script type="text/javascript">
 			$(document).ready(function() {
@@ -36,10 +37,7 @@
 				'Ethan Ness attests to these Tennessee Senate OSHA statutes to shun Utah'
 				];
 
-				makeup(7);
-
-				tutor(lines1, true);
-				tutor(lines2, false);
+				makeup(7, lines1, lines2);
 				
 				cp();
 			});

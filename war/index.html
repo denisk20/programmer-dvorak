@@ -3,12 +3,15 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script type="text/javascript" src="js/cookies.js"></script>
+		<script type="text/javascript" src="js/jquery.1.10.2.min.js"></script>
 		<title>Programmer Dvorak typing tutorial, learn to type Dvorak</title>
 	</head>
 
 	<body>
 		<div class="content">
 			<h1>Programmer Dvorak typing tutorial</h1>
+			<span id="continue"></span>
 			<p><a target="_blank" href="http://www.kaufmann.no/roland/dvorak/index.html">Programmer Dvorak</a> is a modification of 
 				<a target="_blank" href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a> keyboard layout
 				which moves the characters that programmers usually need closer to the fingers (and moves digits a bit away). It also re-arranges
@@ -17,7 +20,7 @@
 				were positioned.
 			</p>
 			<p>
-				<img src="/img/KB_Programmer_Dvorak.png" alt="Programmer Dvorak layout">
+				<img src="img/KB_Programmer_Dvorak.png" alt="Programmer Dvorak layout">
 				<span class="image-descr">(image taken from <a href="http://en.wikipedia.org/wiki/File:KB_Programmer_Dvorak.svg">Wikipedia</a>)</span>
 			</p>
 			<p>
@@ -47,7 +50,7 @@
 			</p> 
 			<h3>Base Dvorak course (created by Dan Wood, original is <a target="_blank" href="http://gigliwood.com/abcd/lessons/">here</a>)</h3>
 			<div id="lessons" class="lessons">
-				<a href="lessons/lesson01.html">Lesson 1: Introducing U and H: Home row, Index fingers</a>
+				<a href="lessons/lesson01.html?a=b">Lesson 1: Introducing U and H: Home row, Index fingers</a>
 				<a href="lessons/lesson02.html">Lesson 2: Introducing E and T: Home row, Second fingers</a>
 				<a href="lessons/lesson03.html">Lesson 3: Comprehensive: E, H, T, U</a>
 				<a href="lessons/lesson04.html">Lesson 4: Introducing O and N: Home row, third fingers</a>
@@ -104,5 +107,14 @@
 				<a href="lessons/lesson52.html">Lesson 52: Comprehensive, including ~ and `</a>
 			</div>
 		</div>
+		<script type="text/javascript">
+			if(docCookies.hasItem('continue')) {
+				var cookie = docCookies.getItem('continue');
+				var parts = cookie.split('_');
+				var lesson = parts[0];
+				var excersise = parts[1];
+				$('#continue').append($('<a href="lessons/lesson' + lesson + '.html?exercise=' + excersise + '">Continue</a>'));
+			}
+		</script>
 	</body>
 </html>

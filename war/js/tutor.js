@@ -1,3 +1,4 @@
+
 jQuery.fn.center = function() {
 	//centers vertically and moves to the right part of the screen
 	this.css("position", "absolute");
@@ -5,6 +6,11 @@ jQuery.fn.center = function() {
 	//can't just set right: 0 because this will somehow break jquery.resizable
 	this.css("left", $(window).width() - $(this).outerWidth() + "px");
 	return this;
+}
+function getURLParameter(name) {
+	return decodeURI(
+			(RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1]
+			);
 }
 function highlightChars(keys) {
 	if(!$.isArray(keys)) {
@@ -15,7 +21,7 @@ function highlightChars(keys) {
 	$.each(keys, function(i, key) {
 		var keyData = PROGRAMMER_DVORAK_KEYMAP[key];
 		highlightChar(keyData, kbd);
-		if(keyData.upper){
+		if(keyData.upper) {
 			//add shift
 			highlightChar(PROGRAMMER_DVORAK_KEYMAP[16], kbd);
 		}
@@ -23,7 +29,7 @@ function highlightChars(keys) {
 
 }
 
-function highlightChar(keyData, kbd){
+function highlightChar(keyData, kbd) {
 	if(keyData) {
 		var keyMark = $('<div class="key-marker"></div>');
 		kbd.append(keyMark);
@@ -34,8 +40,10 @@ function highlightChar(keyData, kbd){
 		keyMark.height((keyData.y2 - keyData.y1) + '%');
 	}
 }
-function makeup(lesson) {
+function makeup() {
 	var content = $('.content');
+	var lesson = arguments[0];
+
 	//header
 	$('head').append($('<title>' + LESSONS.prefix + ': ' + LESSONS[lesson] + '</title>'));
 	content.append($('<h1>' + LESSONS[lesson] + '</h1>'));
@@ -44,7 +52,7 @@ function makeup(lesson) {
 	//navigation
 	var nav = $('<div class="nav"></div>');
 	if(LESSONS[lesson - 1]) {
-		var lessonStr = new String(lesson - 1).length > 1 ? lesson - 1: "0" + (lesson - 1);
+		var lessonStr = new String(lesson - 1).length > 1 ? lesson - 1 : "0" + (lesson - 1);
 		var prev = $('<a href="lesson' + lessonStr + '.html"><img src="../img/left-arrow.png" alt="Previous lesson" title="' + LESSONS[lesson - 1] + '"/></a>');
 		nav.append(prev);
 	}
@@ -63,8 +71,21 @@ function makeup(lesson) {
 
 	kbd.draggable();
 	kbd.resizable({handles: "sw", aspectRatio: true});
+	
+	var args = Array.prototype.slice.call(arguments);
+	var lines = args.slice(1);
+	//draw the tutors
+	var exercise = getURLParameter("exercise");
+	for (var i = 0; i < lines.length; i++) {
+		tutor(lines[i], exercise, i, lesson, lines.length);
+	}
 }
-function tutor(lines, focus, content) {
+
+function tutor(lines, exercise, id, lesson, total) {
+	var focus = false;
+	if(parseInt(exercise) === id) {
+		focus = true;
+	}
 	var content = $('.content');
 	var src = $('<div></div>');
 	var maxLength = 0;
@@ -97,17 +118,34 @@ function tutor(lines, focus, content) {
 		},
 		finishCallback: function(speed) {
 			scp.text('Average speed was ' + speed + ' characters per minute');
+			//setting 'continue' cookie
+			if(lesson === parseInt(LESSONS.count) && id === total-1){
+				//just finished last exercise of last lesson - you rock man!
+				docCookies.removeItem('continue', '/');
+				alert('Congratulations, you rock!')
+			} else {
+				var next = id + 1;
+				if(id === total-1){
+					//finished last exercise in the lesson
+					lesson++;
+					next = 0;
+				}
+				if(new String(lesson).length === 1) {
+					lesson = '0' + lesson;
+				}
+				docCookies.setItem('continue', lesson + '_' + next, Infinity, '/');
+			}
 		},
 		errorCallback: function(errCount) {
 			err.text('Errors: ' + errCount);
 		},
 		nextKeyCallback: function(keys) {
-				highlightChars(keys);
+			highlightChars(keys);
 		},
 		textBackgroundColor: '#F5F2DC',
 		focus: focus
 	});
-	
+
 	showKbd.click(function() {
 		var kbd = $('.keyboard');
 		if($(this).text().indexOf('Hide') >= 0) {
@@ -140,6 +178,6 @@ function tutor(lines, focus, content) {
 /**
  * Copyright of Dan Wood
  */
-function cp(){
+function cp() {
 	$('.content').append($('<div class="copyright">This lesson has been created by Dan Wood. Original can be found here: <a href="http://gigliwood.com/abcd/lessons/">http://gigliwood.com/abcd/lessons/</a></div>'));
 }

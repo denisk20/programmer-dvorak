@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="../js/typingtutor.js"></script>
 		<script type="text/javascript" src="../js/lessons.js"></script>
 		<script type="text/javascript" src="../js/tutor.js"></script>
+        <script type="text/javascript" src="../js/cookies.js"></script>
 
         <script type="text/javascript">
 			$(document).ready(function() {
@@ -65,11 +66,7 @@
 				'highest point in Santiago as an aghast Angie Diego ingested peanuts'
 				];
 
-				makeup(11);
-
-				tutor(lines1, true);
-				tutor(lines2, false);
-				tutor(lines3, false);
+				makeup(11, lines1, lines2, lines3);
 				
 				cp();
 			});

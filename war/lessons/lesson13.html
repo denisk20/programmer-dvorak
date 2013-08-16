@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="../js/typingtutor.js"></script>
 		<script type="text/javascript" src="../js/lessons.js"></script>
 		<script type="text/javascript" src="../js/tutor.js"></script>
+        <script type="text/javascript" src="../js/cookies.js"></script>
 
         <script type="text/javascript">
 			$(document).ready(function() {
@@ -55,11 +56,8 @@
 				'an acoustic succession in succinct cacophonic staccato notes.'
 				];
 
-				makeup(13);
+				makeup(13, lines1, lines2, lines3);
 
-				tutor(lines1, true);
-				tutor(lines2, false);
-				tutor(lines3, false);
 				
 				cp();
 			});
