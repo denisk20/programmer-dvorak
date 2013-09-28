@@ -84,6 +84,10 @@ function makeup() {
 function tutor(lines, exercise, id, lesson, total) {
 	var focus = false;
 	if(parseInt(exercise) === id) {
+		//if there was a cookie bookmark - focus
+		focus = true;
+	} else if(id === 0){
+		//otherwise focus the first exercise
 		focus = true;
 	}
 	var content = $('.content');
