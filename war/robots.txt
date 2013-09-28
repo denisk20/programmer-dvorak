@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /lessons/
+
+Sitemap: http://programmer-dvorak.appspot.com/sitemap.xml
