@@ -68,6 +68,8 @@
 				lineLetters[line][position].css('background-color', cursorColor);
 				//next key callback
 				nextKeyCallback(line, position-1);
+				//clear error state
+				isError = false;
 			}
 		}
 		function increaseErrorCount(){
