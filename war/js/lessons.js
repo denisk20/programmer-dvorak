@@ -26,7 +26,7 @@ var LESSONS = {
 	23: 'Lesson 23: Comprehensive, including J and W',
 	24: 'Lesson 24: Introducing Q and V: Third fingers reaching down',
 	25: 'Lesson 25: Comprehensive, including Q and V',
-	26: 'Lesson 26: Introducing ; and Z: Fourth fingers reaching down',
+	26: 'Lesson 26: Introducing ; and Z: Fourth fingers',
 	27: 'Lesson 27: Comprehensive, including ; and Z',
 	28: 'Lesson 28: Introducing X and B: Index fingers stretching down',
 	29: 'Lesson 29: Comprehensive, including X and B',
