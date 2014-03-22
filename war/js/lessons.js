@@ -16,7 +16,7 @@ var LESSONS = {
 	13: 'Lesson 13: Comprehensive, including . and C',
 	14: 'Lesson 14: Introducing , and R: Third fingers reaching up',
 	15: 'Lesson 15: Comprehensive, including , and R',
-	16: 'Lesson 16: Introducing \' and L: Fourth fingers reaching up',
+	16: 'Lesson 16: Introducing \' and L: Fourth fingers',
 	17: 'Lesson 17: Comprehensive, including \' and L',
 	18: 'Lesson 18: Introducing Y and F: Index fingers stretching up',
 	19: 'Lesson 19: Comprehensive, including Y and F (full upper/home rows)',
