@@ -52,6 +52,6 @@ var LESSONS = {
 	49: 'Lesson 49: Introducing % and 8: Number row, fourth fingers',
 	50: 'Lesson 50: Comprehensive, including % and 8',
 	51: 'Lesson 51: Introducing ~ and `: Number row, fourth fingers',
-	52: 'Lesson 52: Comprehensive, including ~ and `'
+	52: 'Lesson 52: Comprehensive, including ~ and ` (You rock!)'
 }
 
