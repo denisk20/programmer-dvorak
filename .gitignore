@@ -7,3 +7,5 @@
 /build
 /bin
 /dist/
+out/
+target/
