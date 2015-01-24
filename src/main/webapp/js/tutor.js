@@ -178,7 +178,6 @@ function tutor(/**array*/lines, exerciseIdToFocusOn, id, lessonId, totalExercise
 		}
 	});
 
-	//todo get rid of id altogether
 	rst.click(function() {
 		tut.restart();
 		scp.text('');

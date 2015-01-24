@@ -58,10 +58,11 @@ var LESSONS = {
 };
 
 /**
- * Creates links to the lessons for given range in given container
+ * Creates links for the lessons in the given range inside the given container
+ *
  * @param lessonsContainer Container to create the lessons in
  * @param start Start index in lessons.js, inclusive
- * @param end End index in LESSONS, exclusive
+ * @param end End index in LESSONS, inclusive
  */
 function createLessonLinks(lessonsContainer, start, end) {
 	for(var i = start; i <= end; i++) {

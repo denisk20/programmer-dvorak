@@ -53,14 +53,16 @@ h1 {
 .keyboard img {
 	width: 100%;
 	height: 100%;
+	cursor: move;
 }
 .ui-resizable-sw {
 	position: absolute;
-	left: 0;
+	left: 5px;
 	bottom: 0;
-	width: 30px;
-	height: 30px;
-	background-color: black;
+	width: 40px;
+	height: 40px;
+	background-image: url("./img/sw-arrow.png");
+	background-repeat: no-repeat;
 	cursor: sw-resize;
 }
 .key-marker {
