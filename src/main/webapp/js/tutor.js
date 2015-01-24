@@ -176,6 +176,7 @@ function tutor(/**array*/lines, exerciseIdToFocusOn, id, lessonId, totalExercise
 				}
 			});
 		}
+		tut.focus();
 	});
 
 	rst.click(function() {
