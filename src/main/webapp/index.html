@@ -67,13 +67,17 @@
 			<h3>Base Dvorak course (created by Dan Wood, original is <a target="_blank" href="http://gigliwood.com/abcd/lessons/">here</a>)</h3>
 			<div id="lessons" class="lessons">
 			</div>
+			<h3>Lessons for different Programmer Dvorak keys</h3>
+			<div id="other-lessons" class="lessons">
+			</div>
 			<h3>Programmer Dvorak extension for Number Row</h3>
 			<div id="numrow-lessons" class="lessons">
-				<script type="text/javascript">
-					createLessonLinks($('#lessons'), 1, LESSONS.numberRowLessonsStart - 1);
-					createLessonLinks($('#numrow-lessons'), LESSONS.numberRowLessonsStart, LESSONS.count);
-				</script>
 			</div>
+			<script type="text/javascript">
+				createLessonLinks($('#lessons'), 1, LESSONS.otherKeysLessonsStart - 1);
+				createLessonLinks($('#other-lessons'), LESSONS.otherKeysLessonsStart, LESSONS.numberRowLessonsStart - 1);
+				createLessonLinks($('#numrow-lessons'), LESSONS.numberRowLessonsStart, LESSONS.count);
+			</script>
 		</div>
 		<div class="buttons-container">
 			<ul class="buttons">
