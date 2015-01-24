@@ -74,16 +74,25 @@ function makeup() {
 	
 	var args = Array.prototype.slice.call(arguments);
 	var lines = args.slice(1);
-	//draw the tutors
+	//draw the tutors, one per exercise
 	var exercise = getURLParameter("exercise");
 	for (var i = 0; i < lines.length; i++) {
 		tutor(lines[i], exercise, i, lesson, lines.length);
 	}
 }
 
-function tutor(lines, exercise, id, lesson, total) {
+/**
+ * Draws a single exercise on a page
+ * @param lines Array of string lines for exercise
+ * @param exerciseIdToFocusOn Id of the exercise to focus on
+ * @param id Id of current exercise
+ * @param lessonId Id of current lesson
+ * @param totalExerciseCountOnPage How many exercises are there on current page
+ * @returns {*|jQuery}
+ */
+function tutor(/**array*/lines, exerciseIdToFocusOn, id, lessonId, totalExerciseCountOnPage) {
 	var focus = false;
-	if(parseInt(exercise) === id) {
+	if(parseInt(exerciseIdToFocusOn) === id) {
 		//if there was a cookie bookmark - focus
 		focus = true;
 	} else if(id === 0){
@@ -123,21 +132,21 @@ function tutor(lines, exercise, id, lesson, total) {
 		finishCallback: function(speed) {
 			scp.text('Average speed was ' + speed + ' characters per minute');
 			//setting 'continue' cookie
-			if(lesson === parseInt(LESSONS.count) && id === total-1){
+			if(lessonId === parseInt(LESSONS.count) && id === totalExerciseCountOnPage-1){
 				//just finished last exercise of last lesson - you rock man!
 				docCookies.removeItem('continue', '/');
 				alert('Congratulations, you rock!')
 			} else {
 				var next = id + 1;
-				if(id === total-1){
+				if(id === totalExerciseCountOnPage-1){
 					//finished last exercise in the lesson
-					lesson++;
+					lessonId++;
 					next = 0;
 				}
-				if(new String(lesson).length === 1) {
-					lesson = '0' + lesson;
+				if(new String(lessonId).length === 1) {
+					lessonId = '0' + lessonId;
 				}
-				docCookies.setItem('continue', lesson + '_' + next, Infinity, '/');
+				docCookies.setItem('continue', lessonId + '_' + next, Infinity, '/');
 			}
 		},
 		errorCallback: function(errCount) {
