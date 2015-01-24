@@ -132,7 +132,7 @@ function tutor(/**array*/lines, exerciseIdToFocusOn, id, lessonId, totalExercise
 		finishCallback: function(speed) {
 			scp.text('Average speed was ' + speed + ' characters per minute');
 			//setting 'continue' cookie
-			if(lessonId === parseInt(LESSONS.count) && id === totalExerciseCountOnPage-1){
+			if(lessonId === LESSONS.count && id === totalExerciseCountOnPage-1){
 				//just finished last exercise of last lesson - you rock man!
 				docCookies.removeItem('continue', '/');
 				alert('Congratulations, you rock!')

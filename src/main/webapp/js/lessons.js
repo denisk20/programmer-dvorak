@@ -1,6 +1,8 @@
 var LESSONS = {
-	'count': '52',
+	'count': 52,
+	'numberRowLessonsStart': 30,
 	'prefix' : 'Programmer Dvorak typing tutorial',
+
 	1: 'Lesson 1: Introducing U and H: Home row, Index fingers',
 	2: 'Lesson 2: Introducing E and T: Home row, Second fingers',
 	3: 'Lesson 3: Comprehensive: E, H, T, U',
@@ -55,3 +57,15 @@ var LESSONS = {
 	52: 'Lesson 52: Comprehensive, including ~ and ` (You rock!)'
 };
 
+/**
+ * Creates links to the lessons for given range in given container
+ * @param lessonsContainer Container to create the lessons in
+ * @param start Start index in lessons.js, inclusive
+ * @param end End index in LESSONS, exclusive
+ */
+function createLessonLinks(lessonsContainer, start, end) {
+	for(var i = start; i <= end; i++) {
+		var prefix = i < 10 ? '0' : '';
+		lessonsContainer.append('<a rel="nofollow" href="lessons/lesson' + prefix + i + '.html">' + LESSONS[i] + '</a>');
+	}
+}
