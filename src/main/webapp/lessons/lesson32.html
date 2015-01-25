@@ -18,25 +18,15 @@
             $(document).ready(function() {
 
 				var lines1 = [
-					'<<<< <<<< <<<< <<<<',
-					'>>>> >>>> >>>> >>>>',
-					'<< >> << >> << >> << >>',
-					'< > < > < > < > < > < > < > < >'
+					'----  ---- ---- ----',
+					'____ ____ ____ ____',
+					'-_- -_- -_- -_-',
+					'_-_ _-_ _-_ _-_',
+					'__ -- __ -- __ -- __ --,' +
+					'--__-- --__-- --__-- --__--'
 				];
 
-				var lines2 = [
-					'a > b; a > b; a > b; a > b;',
-					'x << z; x << z; x << z; x << z;',
-					'>..< >..< >..< >..<',
-					'<:::> <:::> <:::> <:::>',
-					"'<>' '<>' '<>' '<>'",
-					's >>> bits; s >>> bits; s >>> bits; s >>> bits',
-					'echo "hello" > out.txt; echo "hello" > out.txt;',
-					'x <<< z; x <<< z; x <<< z; x <<< z;',
-					'sort < file.txt > sorted.txt; sort < file.txt > sorted.txt; '
-				];
-
-            makeup(31, lines1, lines2);
+            makeup(32, lines1);
 
             cp();
             });

@@ -18,25 +18,20 @@
             $(document).ready(function() {
 
 				var lines1 = [
-					'<<<< <<<< <<<< <<<<',
-					'>>>> >>>> >>>> >>>>',
-					'<< >> << >> << >> << >>',
-					'< > < > < > < > < > < > < > < >'
+					'<<<< >>>> ---- ____ //// ????',
+					'<<<< >>>> ---- ____ //// ????'
 				];
 
 				var lines2 = [
-					'a > b; a > b; a > b; a > b;',
-					'x << z; x << z; x << z; x << z;',
-					'>..< >..< >..< >..<',
-					'<:::> <:::> <:::> <:::>',
-					"'<>' '<>' '<>' '<>'",
-					's >>> bits; s >>> bits; s >>> bits; s >>> bits',
-					'echo "hello" > out.txt; echo "hello" > out.txt;',
-					'x <<< z; x <<< z; x <<< z; x <<< z;',
-					'sort < file.txt > sorted.txt; sort < file.txt > sorted.txt; '
+					'a/x < b ? "up" : "down"; a/x < b ? "up" : "down"; a/x < b ? "up" : "down"; a/x < b ? "up" : "down";',
+					's/new/old s/new/old s/new/old s/new/old',
+					'/foo?/gi /foo?/gi /foo?/gi /foo?/gi',
+					'_note->prop ? "start" : "stop"; _note->prop ? "start" : "stop"; _note->prop ? "start" : "stop"; _note->prop ? "start" : "stop";',
+					'a->x: z ?: "unknown"; a->x: z ?: "unknown"; a->x: z ?: "unknown"; a->x: z ?: "unknown";',
+					'<<-?:?--> <<-?:?--> <<-?:?--> <<-?:?-->'
 				];
 
-            makeup(31, lines1, lines2);
+            makeup(35, lines1, lines2);
 
             cp();
             });
