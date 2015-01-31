@@ -18,20 +18,20 @@
             $(document).ready(function() {
 
 				var lines1 = [
-					'<<<< >>>> ---- ____ //// ????',
-					'<<<< >>>> ---- ____ //// ????'
+					'<<<< >>>> ---- ____ //// ???? @@@@ ^^^^ \\\\\\\\ ||||',
+					'<<<< >>>> ---- ____ //// ???? @@@@ ^^^^ \\\\\\\\ ||||'
 				];
 
 				var lines2 = [
-					'a/x < b ? "up" : "down"; a/x < b ? "up" : "down"; a/x < b ? "up" : "down"; a/x < b ? "up" : "down";',
-					's/new/old s/new/old s/new/old s/new/old',
-					'/foo?/gi /foo?/gi /foo?/gi /foo?/gi',
-					'_note->prop ? "start" : "stop"; _note->prop ? "start" : "stop"; _note->prop ? "start" : "stop"; _note->prop ? "start" : "stop";',
-					'a->x = z ?: "unknown"; a->x = z ?: "unknown"; a->x = z ?: "unknown"; a->x = z ?: "unknown";',
-					'<<-?:?--> <<-?:?--> <<-?:?--> <<-?:?-->'
+					'ls|grep -i -E "fo?o@bar\\.com" ls|grep -i -E "fo?o@bar\\.com" ls|grep -i -E "fo?o@bar\\.com"',
+					'\'a=\\\'world\\\'\' \'a=\\\'world\\\'\' \'a=\\\'world\\\'\' \'a=\\\'world\\\'\'',
+					'@t->val = @a|@b ^ @x|@y; @t->val = @a|@b ^ @x|@y;  @t->val = @a|@b ^ @x|@y;  @t->val = @a|@b ^ @x|@y;',
+					'@"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal"',
+					'cat /etc/hosts|grep -i domain cat /etc/hosts|grep -i domain cat /etc/hosts|grep -i domain',
+					'a/b < x ? "one":"two">file.txt a/b < x ? "one" : "two" > file.txt a/b < x ? "one" : "two" > file.txt'
 				];
 
-            makeup(35, lines1, lines2);
+            makeup(39, lines1, lines2);
 
             });
         </script>
