@@ -18,15 +18,20 @@
             $(document).ready(function() {
 
 				var lines1 = [
-					'---- ____ ---- ____ ---- ____ ----',
-					'---- ____ ---- ____ ---- ____ ----',
-					'-_- -_- -_- -_-',
-					'_-_ _-_ _-_ _-_',
-					'__ -- __ -- __ -- __ --,' +
-					'--__-- --__-- --__-- --__--'
+					'<<<< >>>> ---- ____ //// ???? @@@@ ^^^^',
+					'<<<< >>>> ---- ____ //// ???? @@@@ ^^^^'
 				];
 
-            makeup(32, lines1);
+				var lines2 = [
+					'me@mail.com me@mail.com me@mail.com me@mail.com',
+					'@this->var = a^b; @this->var = a^b; @this->var = a^b; @this->var = a^b;',
+					'@interface Person : NSObject @interface Person : NSObject',
+					'int a = 5^n; int a = 5^n; int a = 5^n; int a = 5^n;',
+					'@res = a/b^7 - @_c < 0; @res = a/b^7 - @_c < 0; @res = a/b^7 - @_c < 0; @res = a/b^7 - @_c < 0;',
+					'@x <-- @a^@b ? @n : @m; @x <-- @a^@b ? @n : @m; @x <-- @a^@b ? @n : @m; @x <-- @a^@b ? @n : @m;'
+				];
+
+            makeup(37, lines1, lines2);
 
             cp();
             });
