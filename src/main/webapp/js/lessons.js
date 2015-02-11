@@ -34,7 +34,7 @@ var LESSONS = {
 	28: 'Lesson 28: Introducing X and B: Index fingers stretching down',
 	29: 'Lesson 29: Comprehensive, including X and B',
 	//other keys
-	30: 'Lesson 30: Introducing < and >: Right third finger, right second finger',
+	30: 'Lesson 30: Introducing < and >: Left third finger, left second finger',
 	31: 'Lesson 31: Comprehensive, including < and >',
 	32: 'Lesson 32: Introducing - and _: Right forth finger',
 	33: 'Lesson 33: Comprehensive, including - and _',
