@@ -11,7 +11,7 @@
     <properties>
         <appengine.app.version>1</appengine.app.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <appengine-api-1.0-sdk.version>1.9.11</appengine-api-1.0-sdk.version>
+        <appengine-api-1.0-sdk.version>1.9.23</appengine-api-1.0-sdk.version>
     </properties>
 
     <prerequisites>
