@@ -36,13 +36,13 @@ var LESSONS = {
 	//other keys
 	30: 'Lesson 30: Introducing < and >: Left third finger, left second finger',
 	31: 'Lesson 31: Comprehensive, including < and >',
-	32: 'Lesson 32: Introducing - and _: Right forth finger',
+	32: 'Lesson 32: Introducing - and _: Right fourth finger',
 	33: 'Lesson 33: Comprehensive, including - and _',
-	34: 'Lesson 34: Introducing / and ?: Right forth finger',
+	34: 'Lesson 34: Introducing / and ?: Right fourth finger',
 	35: 'Lesson 35: Comprehensive, including / and ?',
-	36: 'Lesson 36: Introducing @ and ^: Right forth finger',
+	36: 'Lesson 36: Introducing @ and ^: Right fourth finger',
 	37: 'Lesson 37: Comprehensive, including @ and ^',
-	38: 'Lesson 38: Introducing \\ and |: Right forth finger',
+	38: 'Lesson 38: Introducing \\ and |: Right fourth finger',
 	39: 'Lesson 39: Comprehensive, including \\ and |',
 	//number row
 	40: 'Lesson 40: Introducing (, * and =: Number row, index fingers',
