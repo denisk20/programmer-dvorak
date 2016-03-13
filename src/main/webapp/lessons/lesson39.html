@@ -24,9 +24,8 @@
 
 				var lines2 = [
 					'ls|grep -i -E "fo?o@bar\\.com" ls|grep -i -E "fo?o@bar\\.com" ls|grep -i -E "fo?o@bar\\.com"',
-					'\'a=\\\'world\\\'\' \'a=\\\'world\\\'\' \'a=\\\'world\\\'\' \'a=\\\'world\\\'\'',
-					'@t->val = @a|@b ^ @x|@y; @t->val = @a|@b ^ @x|@y; @t->val = @a|@b ^ @x|@y; @t->val = @a|@b ^ @x|@y;',
-					'@"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal" @"\\\"val\\\"=myVal"',
+					'@t->val - @a|@b ^ @x|@y; @t->val - @a|@b ^ @x|@y; @t->val - @a|@b ^ @x|@y; @t->val - @a|@b ^ @x|@y;',
+					'@"\\\"val\\\" - myVal" @"\\\"val\\\" - myVal" @"\\\"val\\\" - myVal" @"\\\"val\\\" - myVal"',
 					'cat /etc/hosts|grep -i domain cat /etc/hosts|grep -i domain cat /etc/hosts|grep -i domain',
 					'a/b < x ? "one":"two">file.txt a/b < x ? "one":"two">file.txt a/b < x ? "one":"two">file.txt'
 				];
@@ -37,10 +36,10 @@
         </script>
 	</head>
 
-	<body> 		
+	<body>
 		<div class="content">
 
-			
+
 		</div>
 	</body>
 </html>
