@@ -11,7 +11,7 @@
     <properties>
         <appengine.app.version>1</appengine.app.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <appengine-api-1.0-sdk.version>1.9.23</appengine-api-1.0-sdk.version>
+        <appengine-api-1.0-sdk.version>1.9.71</appengine-api-1.0-sdk.version>
     </properties>
 
     <prerequisites>
@@ -75,8 +75,8 @@
                 <version>3.1</version>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
