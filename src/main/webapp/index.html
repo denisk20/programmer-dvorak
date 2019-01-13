@@ -85,7 +85,7 @@
 				<li>
 					<a class="twitter-share-button"
 					   href="https://twitter.com/share"
-					   data-url="http://programmer-dvorak.appspot.com">
+					   data-url="https://programmer-dvorak.appspot.com">
 						Tweet
 					</a>
 					<script type="text/javascript">
@@ -93,25 +93,15 @@
 					</script>
 				</li>
 				<li>
-					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fprogrammer-dvorak.appspot.com%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=542810692423004" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
-				</li>
-				<li>
-					<div class="g-plusone" data-href="http://programmer-dvorak.appspot.com/"></div>
-					<script type="text/javascript">
-						(function() {
-							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-							po.src = 'https://apis.google.com/js/platform.js';
-							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-						})();
-					</script>
-				</li>
-				<li>
-					<script src="http://platform.linkedin.com/in.js" type="text/javascript">
-						lang: en_US
-					</script>
-					<script type="IN/Share" data-url="http://programmer-dvorak.appspot.com/" data-counter="right"></script>
-				</li>
-			</ul>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+											var js, fjs = d.getElementsByTagName(s)[0];
+											if (d.getElementById(id)) return;
+											js = d.createElement(s); js.id = id;
+											js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+											fjs.parentNode.insertBefore(js, fjs);
+										}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-share-button" data-href="https://programmer-dvorak.appspot.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fprogrammer-dvorak.appspot.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>			</ul>
 		</div>
 
 		<script type="text/javascript">

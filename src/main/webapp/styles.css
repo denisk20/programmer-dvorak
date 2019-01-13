@@ -78,6 +78,11 @@ ul.buttons {
 ul.buttons li {
 	display: inline;
 }
+ul.buttons div {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 .buttons-container {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
