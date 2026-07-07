@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A test for typing tutorial</title>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript" src="jquery.browser.js"></script>
+<script type="text/javascript" src="typingtutor.js"></script>
+</head>
+<body>
+	<div id='src'>
+		<p>this is a text to type</p>
+		<p>it is not too difficult </p>
+		<p>just to test</p>
+	</div>
+	<textarea id='t' cols="160" rows="6"></textarea>
+	<div id="csp"></div>
+	<div id ="err" style="color: red"></div>
+	<button id="rst">Restart</button>
+	<script type="text/javascript">
+		var tut = $('#src, #t').typingtutor({
+			speedTrackCallback: function(speed){
+				$('#csp').text('Current speed is ' + speed + ' characters per minute');
+			},
+			finishCallback: function(speed){
+			    $('#csp').text('Average speed was ' + speed + ' characters per minute');
+			},
+			errorCallback: function(errorCount){
+				$('#err').text('Errors: ' + errorCount);
+			},
+			focus: true,
+			nextKeyCallback: function(keys){
+				console.log('Next key: ' + String.fromCharCode(keys));
+			},
+			textBackgroundColor: 'white',
+		  	showInvalidText: true,
+		});
+		$('#rst').click(function(){
+			tut.restart();
+			$('#csp').text('');
+			$('#err').text('');
+		});
+	</script>
+</body>
+</html>
