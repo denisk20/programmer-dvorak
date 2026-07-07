@@ -1,3 +1,0 @@
-[submodule "war/js/typingtutor"]
-	path = src/main/webapp/js/typingtutor
-	url = git@github.com:denisk20/TypingTutor.git
