@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url> 
-    <loc>http://programmer-dvorak.appspot.com/</loc>
-    <image:image>
-       <image:loc>http://programmer-dvorak.appspot.com/img/KB_Programmer_Dvorak.png</image:loc> 
-    </image:image>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://denisk20.github.io/programmer-dvorak/</loc>
+        <lastmod>2026-07-07</lastmod>
+        <image:image>
+            <image:loc>https://denisk20.github.io/programmer-dvorak/img/KB_Programmer_Dvorak.png</image:loc>
+        </image:image>
+    </url>
 </urlset>

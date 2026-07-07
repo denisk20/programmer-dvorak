@@ -6,4 +6,4 @@ https://github.com/denisk20/TypingTutor
 
 See it live!
 
-[http://programmer-dvorak.appspot.com/](https://denisk20.github.io/programmer-dvorak/)
+[https://denisk20.github.io/programmer-dvorak/](https://denisk20.github.io/programmer-dvorak/)

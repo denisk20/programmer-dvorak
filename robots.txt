@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /lessons/
 
-Sitemap: http://programmer-dvorak.appspot.com/sitemap.xml
+Sitemap: https://denisk20.github.io/programmer-dvorak/sitemap.xml
